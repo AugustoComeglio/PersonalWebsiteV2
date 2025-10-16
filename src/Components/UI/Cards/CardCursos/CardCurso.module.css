@@ -1,0 +1,127 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;        
+    background-color: #edd8bb;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.conttitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#e2aa87;
+    border-radius: 5px 5px 0px 0px;
+    justify-content: space-between; 
+}
+.status{
+    padding: 10px 10px 10px 0px;
+    font-size: 20px;
+}
+.statustexto{
+    font-weight: 600;
+}
+.title{
+    padding: 10px 0px 10px 10px;
+    font-weight: 600;
+}
+.descripcion{
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+}
+.contimg{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.contenedorInfo{
+    display: flex;
+    flex-direction: row;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+
+.statusicon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+
+.inprogress .statusicon {
+  background-color: #4169E1;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
+}
+.inprogress .statustexto {
+  color: #4169E1;
+  text-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
+}
+
+.done .statusicon {
+  background-color: #2E8B57;
+  box-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+}
+.done .statustexto {
+  color: #2E8B57;
+  text-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+  
+}
+.contButton{
+  display: flex;
+  justify-content: left;
+}
+.Button{
+  background-color:#e2aa87;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: "Montserrat"!;
+}
+.Button:hover{
+  background-color: #a2d3c7;
+}
+.buttonInprogress{
+  background-color:dimgray;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: "Montserrat"!;
+}
+.buttonInprogress:hover{
+  cursor:not-allowed;
+}
+.aInprogress{
+  pointer-events: none;
+}

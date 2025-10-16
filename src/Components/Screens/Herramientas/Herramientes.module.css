@@ -1,0 +1,79 @@
+.contPrincipal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;    
+    flex: 1;
+}
+
+.accordionitem {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.accordionheader {
+  background-color: #e2aa87;
+  font-weight: 600;
+  padding: 14px 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+.accordionheader:hover {
+  background-color: #a2d3c7;
+}
+
+.accordioncontent {
+  background-color: #edd8bb;
+   max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 20px;
+}
+
+.accordioncontent.active {
+  max-height: 400px; 
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  background: #f9f9f9;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.imgHerramienta {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}

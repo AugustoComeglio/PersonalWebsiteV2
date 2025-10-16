@@ -1,0 +1,68 @@
+[
+    {
+        "Id": 5,
+        "Tipo": "RPA",
+        "Herramientas": [
+            {
+                "Nombre:": "Blue Prism",
+                "Src": "../Images/Herramientas/logo-blueprism.png"
+            },
+            {
+               "Nombre:": "Power Automate",
+                "Src": "../Images/Herramientas/logo-pa.png" 
+            }
+        ]
+    },
+    {
+        "Id": 24,
+        "Tipo": "Back End",
+        "Herramientas": [
+            {
+                "Nombre:": "Java",
+                "Src": "../Images/Herramientas/logo-java.png"
+            }
+        ]
+    },
+    {
+        "Id": 3,
+        "Tipo": "Front End",
+        "Herramientas": [
+            {
+                "Nombre:": "HTML",
+                "Src": "../Images/Herramientas/logo-html.png"
+            },
+            {
+               "Nombre:": "CSS",
+                "Src": "../Images/Herramientas/logo-css.png" 
+            },
+            {
+               "Nombre:": "JS",
+                "Src": "../Images/Herramientas/logo-js.png" 
+            },
+            {
+               "Nombre:": "React",
+                "Src": "../Images/Herramientas/logo-react.png" 
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "Tipo": "Bases de Datos",
+        "Herramientas": [
+            {
+                "Nombre:": "My SQL",
+                "Src": "../Images/Herramientas/logo-mysql.png"
+            }
+        ]
+    },
+    {
+        "Id": 1,
+        "Tipo": "Otras",
+        "Herramientas": [
+            {
+                "Nombre:": "Excel",
+                "Src": "../Images/Herramientas/logo-excel.png"
+            }
+        ]
+    }
+]

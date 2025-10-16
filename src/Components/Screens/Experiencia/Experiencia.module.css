@@ -1,0 +1,17 @@
+.contPrincipal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    flex: 1;
+    gap: 50px; 
+}
+
+
+
