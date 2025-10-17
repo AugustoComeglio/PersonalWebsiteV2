@@ -5,7 +5,7 @@ const CardIdioma = ({Idioma, Src, Nivel}) => {
     return (
         <div className={styles.card}>
             <div  className={styles.contimg}>
-                <img className={styles.img} src={Src}/> 
+                <img className={styles.img} src={Src} title={Idioma}/> 
             </div>
             <div>
                 <div className={styles.title}>{Idioma}</div>

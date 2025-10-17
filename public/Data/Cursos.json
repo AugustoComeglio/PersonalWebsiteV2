@@ -5,7 +5,7 @@
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
         "Expedicion": "-",
-        "SrcCertificado": "/Certificados/logo-imagen no disponible.jpg",
+        "SrcCertificado": "Images/Certificados/logo-imagen no disponible.jpg",
         "Status": "In Progress"
     },
     {
@@ -14,8 +14,8 @@
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
         "Expedicion": "-",
-        "SrcCertificado": "/Certificados/logo-imagen no disponible.jpg",
-        "Status": "In Progress"
+        "SrcCertificado": "/Images/Certificados/Santander-Excel.jpg",
+        "Status": "Done"
     },
     {
         "id": 8,
@@ -23,7 +23,7 @@
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
         "Expedicion": "Octubre 2025",
-        "SrcCertificado": "/Certificados/Santander-Introducción-a-la-Ciencia-de-Datos_1.jpg",
+        "SrcCertificado": "Images//Certificados/Santander-Introducción-a-la-Ciencia-de-Datos_1.jpg",
         "Status": "Done"
     },
     {
@@ -32,7 +32,7 @@
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
         "Expedicion": "Octubre 2025",
-        "SrcCertificado": "/Certificados/Santander-Power-BI.jpg",
+        "SrcCertificado": "Images//Certificados/Santander-Power-BI.jpg",
         "Status": "Done"
     },
     {
@@ -41,7 +41,7 @@
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
         "Expedicion": "Septiembre 2025",
-        "SrcCertificado": "/Certificados/Santander-Gestión-de-Proyectos-y-Fundamentos-de-metodología-Agiles.jpg",
+        "SrcCertificado": "Images//Certificados/Santander-Gestión-de-Proyectos-y-Fundamentos-de-metodología-Agiles.jpg",
         "Status": "Done"
     },
     {
@@ -59,7 +59,7 @@
         "Institucion": "Telefónica",
         "SrcIstitucion": "/Images/Cursos/logo-telefonica.jpg",
         "Expedicion": "Febrero 2023",
-        "SrcCertificado": "/Certificados/Telefónica-Movistar-Gestión-de-Proyectos-con-Metodologías-Ágiles-y-Enfoques-Lean.jpg",
+        "SrcCertificado": "Images//Certificados/Telefónica-Movistar-Gestión-de-Proyectos-con-Metodologías-Ágiles-y-Enfoques-Lean.jpg",
         "Status": "Done"
     },
     {
@@ -68,7 +68,7 @@
         "Institucion": "Telefónica",
         "SrcIstitucion": "/Images/Cursos/logo-telefonica.jpg",
         "Expedicion": "Febrero 2023",
-        "SrcCertificado": "/Certificados/Telefónica-Movistar-Introducción-a-Ciberseguridad.jpg",
+        "SrcCertificado": "Images/Certificados/Telefónica-Movistar-Introducción-a-Ciberseguridad.jpg",
         "Status": "Done"
     },
     {
@@ -77,7 +77,7 @@
         "Institucion": "Arkademy",
         "SrcIstitucion": "/Images/Cursos/logo-arkademy.png",
         "Expedicion": "Febrero 2023",
-        "SrcCertificado": "/Certificados/Arkademy-RPA-Develope.jpg",
+        "SrcCertificado": "Images//Certificados/Arkademy-RPA-Develope.jpg",
         "Status": "Done"
     },
     {
@@ -86,7 +86,7 @@
         "Institucion": "Platzi",
         "SrcIstitucion": "/Images/Cursos/logo-platzi.jpg",
         "Expedicion": "Septiembre 2019",
-        "SrcCertificado": "/Certificados/Platzi-Programación-Basica_page.jpg",
+        "SrcCertificado": "Images//Certificados/Platzi-Programación-Basica_page.jpg",
         "Status": "Done"
     }
 ]
