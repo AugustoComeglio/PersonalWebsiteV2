@@ -2,7 +2,7 @@
     min-height: 200px;
     width: 1500px;
     background-color: #6C5F5B;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
