@@ -16,7 +16,7 @@ const Herramientas = () => {
       .catch((err) => console.error("Error al cargar JSON:", err));
   }, []);
 
-   const toggleAccordion = (index) => {
+  const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
@@ -25,29 +25,29 @@ const Herramientas = () => {
       <Header />
       <Title Title="Herramientas" />
       <div className={styles.contenedor}>
-
-           {her.map((item, index) => (
+        {her.map((item, index) => (
           <div key={index} className={styles.accordionitem}>
-            {/* Encabezado */}
             <button
               className={styles.accordionheader}
-              onClick={() => toggleAccordion(index)}
-            >
-              {item.Tipo}
+              onClick={() => toggleAccordion(index)}>
+            <span>{item.Tipo}</span>{" "}
+              <span
+                className={`${styles.accordionicon} ${
+                  activeIndex === index ? styles.rotated : ""
+                }`}
+              >
+                &gt;
+              </span>{" "}
             </button>
-
-            {/* Contenido */}
             <div
               className={`${styles.accordioncontent} ${
-                activeIndex === index ? styles.active : ""
-              }`}
-            >
+                activeIndex === index ? styles.active : ""}`}>
               <div className={styles.grid}>
                 {item.Herramientas.map((herr, i) => (
                   <div key={i} className={styles.card}>
                     <img
                       src={herr.Src}
-                      alt={herr["Nombre:"]}
+                      title={herr.Nombre}
                       className={styles.imgHerramienta}
                     />
                   </div>
@@ -56,7 +56,6 @@ const Herramientas = () => {
             </div>
           </div>
         ))}
-
       </div>
       <Footer />
     </div>

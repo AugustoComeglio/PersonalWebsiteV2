@@ -1,7 +1,19 @@
 .titulo{
-    padding: 20px 100px 20px 100px;
+    padding: 20px 100px;
     font-size: 30px;
     text-align: center;
-    background-color: #edd8bb;
+    background-color:#4F4A45;
     font-weight: 600;
+    border-bottom: 2px solid #DAC3B3;
+    /* animation: slideDown 1s ease-out forwards; */
 }
+/* @keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */

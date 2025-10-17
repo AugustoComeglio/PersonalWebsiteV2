@@ -14,7 +14,6 @@
 
 .accordionitem {
     width: 100%;
-    border: 1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 15px;
     overflow: hidden;
@@ -22,7 +21,7 @@
 }
 
 .accordionheader {
-  background-color: #e2aa87;
+  background-color: #CDAB81;
   font-weight: 600;
   padding: 14px 18px;
   width: 100%;
@@ -33,13 +32,17 @@
   font-size: 18px;
   font-weight: 500;
   transition: background 0.3s;
+  color: #4F4A45;
+  display: flex;
+  justify-content: space-between;
+  
 }
 .accordionheader:hover {
-  background-color: #a2d3c7;
+  background-color: #DAC3B3;
 }
 
 .accordioncontent {
-  background-color: #edd8bb;
+  background-color: #DAC3B3;
    max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease, padding 0.4s ease;
@@ -59,13 +62,12 @@
 }
 
 .card {
-  background: #f9f9f9;
+  background:#DAC3B3;
   border-radius: 5px;
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .card:hover {
@@ -76,4 +78,17 @@
   width: 60px;
   height: 60px;
   object-fit: contain;
+}
+.accordionicon {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.rotated {
+  transform: rotate(90deg);
+}
+.active {
+  max-height: 1000px;
+  padding: 15px 0; 
 }

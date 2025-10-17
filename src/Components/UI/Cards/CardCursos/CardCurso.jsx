@@ -43,17 +43,12 @@ const CardCurso = ({
               <b>Expedición:</b> {Expedicion}
             </div>
             <div className={styles.descripcion}>
-              <div className={styles.contButton}>
-                <a href={SrcCertificado} target="_blank" className={`${
-                      Status === "In Progress" && styles.aInprogress
-                    }`} >        
-                  <button
-                    className={`${styles.Button} ${
-                      Status === "In Progress" && styles.buttonInprogress
-                    }`}><b>Certificado</b>
-                  </button>
+                <a
+                  href={SrcCertificado}
+                  target="_blank"
+                  className={`${Status === "In Progress" ? styles.aInprogress : styles.aDone}`}>
+                  <b>Ver Certificado</b>
                 </a>
-              </div>
             </div>
           </div>
         </div>

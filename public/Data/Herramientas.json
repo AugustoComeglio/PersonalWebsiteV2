@@ -1,67 +1,157 @@
 [
     {
-        "Id": 5,
+        "Id": 6,
         "Tipo": "RPA",
         "Herramientas": [
             {
-                "Nombre:": "Blue Prism",
-                "Src": "/Images/Herramientas/logo-blueprism.png"
+                "Nombre": "Blue Prism",
+                "Src": "/Images/Herramientas/blue-prism.svg"
             },
             {
-               "Nombre:": "Power Automate",
-                "Src": "/Images/Herramientas/logo-pa.png" 
+               "Nombre": "Power Automate",
+                "Src": "/Images/Herramientas/power-automate.svg" 
             }
         ]
     },
     {
-        "Id": 24,
+        "Id": 5,
         "Tipo": "Back End",
         "Herramientas": [
             {
-                "Nombre:": "Java",
-                "Src": "/Images/Herramientas/logo-java.png"
+                "Nombre": "Java",
+                "Src": "/Images/Herramientas/java.svg"
+            },
+            {
+                "Nombre": "Python",
+                "Src": "/Images/Herramientas/python.svg"
+            },
+            {
+                "Nombre": "C#",
+                "Src": "/Images/Herramientas/csharp.svg"
+            },
+            {
+                "Nombre": "Node.js",
+                "Src": "/Images/Herramientas/nodejs.svg"
+            },
+            {
+                "Nombre": "Spring",
+                "Src": "/Images/Herramientas/spring.svg"
+            }
+        ]
+    },
+    {
+        "Id": 4,
+        "Tipo": "Front End",
+        "Herramientas": [
+            {
+                "Nombre": "HTML",
+                "Src": "/Images/Herramientas/html5.svg"
+            },
+            {
+               "Nombre": "CSS",
+                "Src": "/Images/Herramientas/css_old.svg" 
+            },
+            {
+               "Nombre": "JS",
+                "Src": "/Images/Herramientas/javascript.svg" 
+            },
+            {
+               "Nombre": "React",
+                "Src": "/Images/Herramientas/react_light.svg" 
+            },
+            {
+               "Nombre": "Bostrap",
+                "Src": "/Images/Herramientas/bootstrap.svg" 
+            },
+            {
+               "Nombre": "Vite.js",
+                "Src": "/Images/Herramientas/vitejs.svg" 
             }
         ]
     },
     {
         "Id": 3,
-        "Tipo": "Front End",
+        "Tipo": "Herramientas de Desarrollo",
         "Herramientas": [
             {
-                "Nombre:": "HTML",
-                "Src": "/Images/Herramientas/logo-html.png"
+                "Nombre": "Visual Studio Code",
+                "Src": "/Images/Herramientas/vscode.svg"
             },
             {
-               "Nombre:": "CSS",
-                "Src": "/Images/Herramientas/logo-css.png" 
+               "Nombre": "IntelliJ IDEA",
+                "Src": "/Images/Herramientas/intellijidea.svg" 
             },
             {
-               "Nombre:": "JS",
-                "Src": "/Images/Herramientas/logo-js.png" 
+               "Nombre": "Eclipse",
+                "Src": "/Images/Herramientas/eclipse.svg" 
             },
             {
-               "Nombre:": "React",
-                "Src": "/Images/Herramientas/logo-react.png" 
+               "Nombre": "Git",
+                "Src": "/Images/Herramientas/git.svg" 
+            },
+            {
+                "Nombre:": "Git Hub",
+                "Src": "/Images/Herramientas/github_light.svg"
+            },
+            {
+               "Nombre": "CSS",
+                "Src": "/Images/Herramientas/docker.svg" 
+            },
+            {
+               "Nombre": "Netlify",
+                "Src": "/Images/Herramientas/netlify.svg" 
+            },
+            {
+               "Nombre": "Postman",
+                "Src": "/Images/Herramientas/postman.svg" 
             }
         ]
     },
     {
         "Id": 2,
-        "Tipo": "Bases de Datos",
+        "Tipo": "Bases de Datos y Gestión de Datos",
         "Herramientas": [
             {
-                "Nombre:": "My SQL",
-                "Src": "/Images/Herramientas/logo-mysql.png"
+                "Nombre": "MySQL",
+                "Src": "/Images/Herramientas/mysql-icon-light.svg"
+            },
+            {
+                "Nombre": "MongoDB",
+                "Src": "/Images/Herramientas/mongodb.svg"
+            },
+            {
+                "Nombre": "Power BI",
+                "Src": "/Images/Herramientas/power-bi.svg"
             }
         ]
     },
     {
         "Id": 1,
-        "Tipo": "Otras",
+        "Tipo": "Productividad",
         "Herramientas": [
             {
-                "Nombre:": "Excel",
-                "Src": "/Images/Herramientas/logo-excel.png"
+                "Nombre": "Microsoft Excel",
+                "Src": "/Images/Herramientas/microsoft-excel.svg"
+            },
+            {
+                "Nombre": "Notion",
+                "Src": "/Images/Herramientas/notion.svg"
+            },
+            {
+                "Nombre": "Microsoft One Drive",
+                "Src": "/Images/Herramientas/microsoft-onedrive.svg"
+            },
+            {
+                "Nombre": "Microsoft Sharepoint",
+                "Src": "/Images/Herramientas/microsoft-sharepoint.svg"
+            },
+            {
+                "Nombre": "Microsoft Teams",
+                "Src": "/Images/Herramientas/microsoft-teams.svg"
+            },
+            {
+                "Nombre": "Google Drive",
+                "Src": "/Images/Herramientas/drive.svg"
             }
         ]
     }

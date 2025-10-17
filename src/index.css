@@ -1,10 +1,18 @@
 body{
-    background-color: #fef7e1;
+    background-color: #6C5F5B;
     font-family: "Montserrat";
     font-optical-sizing: auto;
     font-style: normal;
+    color: #CDAB81;
 }
 html, body {
   height: 100%;
   margin: 0;
 }
+
+/* 
+#4F4A45
+#6C5F5B
+#CDAB81
+#DAC3B3 
+*/

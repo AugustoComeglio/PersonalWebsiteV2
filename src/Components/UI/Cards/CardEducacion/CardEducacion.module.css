@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 800px;
-    background-color: #edd8bb;
+    background-color: #6C5F5B;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    /* animation: slideDown 1s ease-out forwards; */
 }
+
 
 .card:hover {
   transform: translateY(-5px);
@@ -24,24 +24,21 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color:#e2aa87;
     border-radius: 5px 5px 0px 0px;
-    justify-content: space-between; 
+    justify-content: space-between;
+    border-bottom: 2px solid #DAC3B3; 
 }
-.status{
-    padding: 10px 10px 10px 0px;
-    font-size: 20px;
-}
+
 .statustexto{
     font-weight: 600;
 }
 .title{
-    padding: 10px 0px 10px 10px;
+    padding: 10px;
     font-size: 20px;
     font-weight: 600;
 }
 .descripcion{
-    padding: 0px 0px 10px 0px;
+    padding: 10px;
     margin: 0px;
 }
 .contimg{
@@ -61,10 +58,12 @@
 }
 
 .status {
+  padding: 10px 10px 10px 0px;
+  font-size: 20px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 18px;
+  gap: 5px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -79,20 +78,31 @@
 
 
 .inprogress .statusicon {
-  background-color: #4169E1;
-  box-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
+  background-color: #0099FF;
+  box-shadow: 0 0 6px #0099FF;
 }
 .inprogress .statustexto {
-  color: #4169E1;
-  text-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
+  color: #0099FF;
+  text-shadow: 0 0 6px #0099FF;
 }
 
 .done .statusicon {
-  background-color: #2E8B57;
-  box-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+  background-color: #00FF00;
+  box-shadow: 0 0 6px #00FF00;
 }
 .done .statustexto {
-  color: #2E8B57;
-  text-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+  color: #00FF00;
+  text-shadow: 0 0 6px #00FF00;
   
 }
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

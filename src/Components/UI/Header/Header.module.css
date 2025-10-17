@@ -1,8 +1,9 @@
 .header {
-  background:#e2aa87;
+  background:#4F4A45;
   width: 100%;
-  text-align: left;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px;
+  border-bottom: 2px solid #DAC3B3;
+  /* animation: slideDown 1s ease-out forwards; */
 }
 
 .ul {
@@ -19,16 +20,27 @@
 
 .ul .li .a {
   display: block;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .ul .li .a:hover {
-  background-color: #edd8bb;
+  background-color: #DAC3B3;
   border-radius: 5px;
 }
 .a{
   font-weight:700;
+  
 }
+
+/* @keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}*/
