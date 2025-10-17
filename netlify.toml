@@ -1,23 +1,7 @@
-# === Netlify Configuration File ===
-
-# Configuración principal del proceso de construcción (Build)
-# Adapta estos comandos si usas yarn, pnpm, o si tu carpeta de salida es 'dist' en lugar de 'build'.
-[build]
-  # Comando para construir tu sitio.
-  command = "npm run build"
-
-  # Directorio que Netlify debe desplegar. Create React App genera la carpeta 'build'.
+  command = "CI=false npm run build"
   publish = "build"
 
-# Regla de reescritura (rewrite) para Aplicaciones de Página Única (SPA).
-# Esta es la sección clave que soluciona el error 404 al recargar.
 [[redirects]]
-  # Captura cualquier ruta que no corresponda a un archivo existente.
   from = "/*"
-
-  # Sirve el punto de entrada principal de tu aplicación React.
   to = "/index.html"
-
-  # Devuelve un código de estado 200 (OK), lo que significa que es una reescritura, no una redirección.
-  # La URL en el navegador del usuario no cambia.
   status = 200
