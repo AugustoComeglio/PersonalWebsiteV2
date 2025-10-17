@@ -10,7 +10,7 @@ const Herramientas = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   useEffect(() => {
-    fetch("../../../../public/Data/Herramientas.json")
+    fetch("/Data/Herramientas.json")
       .then((res) => res.json())
       .then((data) => setHerramienta(data))
       .catch((err) => console.error("Error al cargar JSON:", err));

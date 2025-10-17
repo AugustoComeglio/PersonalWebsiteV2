@@ -10,7 +10,7 @@ const Experiencia = () => {
   const [exp, setExperiencia] = useState([]);
 
   useEffect(() => {
-    fetch("../../../../public/Data/Experiencia.json")
+    fetch("/Data/Experiencia.json")
       .then((res) => res.json())
       .then((data) => setExperiencia(data));
   }, []);

@@ -5,7 +5,7 @@
         "Carrera": "Ingeniería en Sistemas de Información",
         "FechaInicio": "2016",
         "FechaFin": "Actualidad",
-        "Src": "../../public/Images/Educacion/logo-utn.png",
+        "Src": "/Images/Educacion/logo-utn.png",
         "Status": "In Progress"
     },
     {
@@ -14,7 +14,7 @@
         "Carrera": "Administración y Gestión de Empresas",
         "FechaInicio": "2011",
         "FechaFin": "2015",
-        "Src": "../../public/Images/Educacion/logo-sanpio.png",
+        "Src": "/Images/Educacion/logo-sanpio.png",
         "Status": "Done"
     }
 ]

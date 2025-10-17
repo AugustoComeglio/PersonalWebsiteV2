@@ -10,7 +10,7 @@ const Idiomas = () => {
   const [idiomas, setIdiomas] = useState([]);
 
   useEffect(() => {
-    fetch("../../../../public/Data/Idiomas.json")
+    fetch("/Data/Idiomas.json")
       .then((res) => res.json())
       .then((data) => setIdiomas(data));
   }, []);

@@ -9,7 +9,7 @@
         "Web": "https://ctrl365.com/",
         "Proyecto": "Allfunds España",
         "Tareas": "Automatización de procesos con Blue Prism, interacción continua con el cliente, desarrollo de scripts utilizando Visual Basic para tareas específicas, integración de sistemas mediante consumo de APIs, elaboración de documentación técnica y funcional, testeo de procesos, incluyendo pruebas unitarias y pruebas en ambiente controlado, automatización de procesos para el equipo en Power Automate, análisis, relevamiento y estimación de procesos para optimización y mejora continua, identificación y corrección de errores en procesos, con documentación detallada, monitoreo y mantenimiento de procesos.",
-        "Src": "../Images/Experiencia/logo-ctrl365.jpeg"
+        "Src": "/Images/Experiencia/logo-ctrl365.jpeg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "Web": "https://ctrl365.com/",
         "Proyecto": "Santander Chile",
         "Tareas": "Automatización de procesos con Blue Prism, interacción continua con el cliente, desarrollo de scripts utilizando Visual Basic para tareas específicas, integración de sistemas mediante consumo de APIs, elaboración de documentación técnica y funcional, testeo de procesos, incluyendo pruebas unitarias y pruebas en ambiente controlado.",
-        "Src": "../Images/Experiencia/logo-ctrl365.jpeg"
+        "Src": "/Images/Experiencia/logo-ctrl365.jpeg"
     },
     {
         "id": 2,
@@ -33,7 +33,7 @@
         "Web": "http://www.radiotantanakuy.com/",
         "Proyecto": "-",
         "Tareas": "Mantenimiento y configuraciones de PCs, consolas de audio, micrófonos y servidores de streaming, configuraciones de programas de streaming, soluciones de problemas técnicos, backup de archivos, mantenimiento de QNAP.",
-        "Src": "../Images/Experiencia/logo-radiotantanakuy.jpg"
+        "Src": "/Images/Experiencia/logo-radiotantanakuy.jpg"
     },
     {
         "id": 1,
@@ -45,6 +45,6 @@
         "Web": "https://unidosporelmundo.radiodigitales.com/",
         "Proyecto": "-",
         "Tareas": "Mantenimiento y configuraciones de PCs, consolas de audio, micrófonos y servidores de streaming, soluciones de problemas técnicos, backup de archivos, creación y mantenimiento de página web.",
-        "Src": "../Images/Experiencia/logo-uxem.png"
+        "Src": "/Images/Experiencia/logo-uxem.png"
     }
 ]
