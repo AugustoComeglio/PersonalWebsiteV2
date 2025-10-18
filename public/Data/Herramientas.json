@@ -116,10 +116,6 @@
                 "Src": "/Images/Herramientas/mysql-icon-light.svg"
             },
             {
-                "Nombre": "MongoDB",
-                "Src": "/Images/Herramientas/mongodb.svg"
-            },
-            {
                 "Nombre": "Power BI",
                 "Src": "/Images/Herramientas/power-bi.svg"
             }

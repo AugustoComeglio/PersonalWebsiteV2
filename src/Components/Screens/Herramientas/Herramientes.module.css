@@ -21,10 +21,10 @@
 }
 
 .accordionheader {
-  background-color: #CDAB81;
+  background-color: #DAC3B3;
   font-weight: 600;
-  padding: 14px 18px;
-  width: 100%;
+  padding: 20px;
+  width: 100%;;
   text-align: left;
   border: none;
   outline: none;
@@ -35,10 +35,16 @@
   color: #4F4A45;
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
 }
+.accordionheader.active {
+  background-color: #CDAB81;
+  padding: 20px;
+  font-weight: 600;
+}
+
 .accordionheader:hover {
-  background-color: #DAC3B3;
+  background-color: #CDAB81;
 }
 
 .accordioncontent {
@@ -80,9 +86,8 @@
   object-fit: contain;
 }
 .accordionicon {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
   transition: transform 0.3s ease-in-out;
 }
 .rotated {

@@ -28,20 +28,14 @@ const Herramientas = () => {
         {her.map((item, index) => (
           <div key={index} className={styles.accordionitem}>
             <button
-              className={styles.accordionheader}
+              className={`${styles.accordionheader} ${ activeIndex === index ? styles.active : "" }`}
               onClick={() => toggleAccordion(index)}>
-            <span>{item.Tipo}</span>{" "}
-              <span
-                className={`${styles.accordionicon} ${
-                  activeIndex === index ? styles.rotated : ""
-                }`}
-              >
-                &gt;
-              </span>{" "}
+              <span>{item.Tipo}</span>
+              <span className={`${styles.accordionicon} ${
+                  activeIndex === index ? styles.rotated : "" }`}>&gt;</span>
             </button>
             <div
-              className={`${styles.accordioncontent} ${
-                activeIndex === index ? styles.active : ""}`}>
+              className={`${styles.accordioncontent} ${ activeIndex === index ? styles.active : ""}`}>
               <div className={styles.grid}>
                 {item.Herramientas.map((herr, i) => (
                   <div key={i} className={styles.card}>
