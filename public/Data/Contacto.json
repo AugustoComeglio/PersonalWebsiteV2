@@ -1,0 +1,30 @@
+[
+    {
+        "id":"4",
+        "Nombre":"Correo",
+        "Info":"augustoc.98@gmail.com",
+        "Link":"",
+        "Src":"../Images/Contacto/sobre.png"
+    },
+    {
+        "id":"3",
+        "Nombre":"Teléfono",
+        "Info":"+54 2634-565031",
+        "Link":"",
+        "Src":"../Images/Contacto/llamada-telefonica.png"
+    },
+    {
+        "id":"2",
+        "Nombre":"GitHub",
+        "Info":"",
+        "Link":"https://github.com/AugustoComeglio",
+        "Src":"../Images/Contacto/github.png"
+    },
+    {
+        "id":"1",
+        "Nombre":"Linkedin",
+        "Info":"",
+        "Link":"https://www.linkedin.com/in/augusto-comeglio-b99b47213/",
+        "Src":"../Images/Contacto/linkedin.png"
+    }
+]

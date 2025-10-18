@@ -22,7 +22,6 @@
 
 .accordionheader {
   background-color: #DAC3B3;
-  font-weight: 600;
   padding: 20px;
   width: 100%;;
   text-align: left;
@@ -30,17 +29,17 @@
   outline: none;
   cursor: pointer;
   font-size: 18px;
-  font-weight: 500;
   transition: background 0.3s;
   color: #4F4A45;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 900;
 }
 .accordionheader.active {
   background-color: #CDAB81;
   padding: 20px;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .accordionheader:hover {
