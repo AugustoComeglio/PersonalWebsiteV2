@@ -2,8 +2,8 @@ import React from 'react'
 import Header from '../../UI/Header/Header'
 import Footer from '../../UI/Footer/Footer'
 import styles from './Home.module.css'
-import Msj from '../../UI/Msj/Msj'
 import Title from '../../UI/Title/Title'
+import CardPresentacion from '../../UI/Cards/CardPresentacion/CardPresentacion'
 
 
 
@@ -13,7 +13,7 @@ const Home = () => {
     <Header/>
     <Title Title="Home"/>
     <div className={styles.contenedor}>
-      <Msj/>
+      <CardPresentacion/>
     </div>
     <Footer/>
     </div> 

@@ -1,6 +1,5 @@
 import { Navigate, Route, Routes } from "react-router";
 import Home from "../Components/Screens/Home/Home"
-import Aptitudes from "../Components/Screens/Aptitudes/Aptitudes"
 import Contacto from "../Components/Screens/Contacto/Contacto"
 import Cursos from "../Components/Screens/Cursos/Cursos"
 import Educacion from "../Components/Screens/Educacion/Educacion"
@@ -15,7 +14,6 @@ const AppRouter = () => {
         <Route path="" element={<Navigate to="home" />} />
         <Route path="/" element={<Navigate to="home" />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/aptitudes" element={<Aptitudes />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/cursos" element={<Cursos />} />
         <Route path="/educacion" element={<Educacion />} />

@@ -35,9 +35,6 @@ const Header = () => {
           <li className={styles.li}>
             <a className={styles.a} onClick={()=> navigate("/idiomas")}>Idiomas</a>
           </li>
-          <li className={styles.li}>
-            <a className={styles.a }onClick={()=> navigate("/aptitudes")}>Aptitudes</a>
-          </li>
         </ul>
       </header>
     </>
