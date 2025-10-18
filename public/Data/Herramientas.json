@@ -90,12 +90,8 @@
                 "Src": "/Images/Herramientas/git.svg" 
             },
             {
-                "Nombre:": "Git Hub",
+                "Nombre:": "GitHub",
                 "Src": "/Images/Herramientas/github_light.svg"
-            },
-            {
-               "Nombre": "CSS",
-                "Src": "/Images/Herramientas/docker.svg" 
             },
             {
                "Nombre": "Netlify",
