@@ -12,13 +12,14 @@ const Experiencia = () => {
   useEffect(() => {
     fetch("/Data/Experiencia.json")
       .then((res) => res.json())
-      .then((data) => setExperiencia(data));
+      .then((data) => setExperiencia(data))
+      .catch((error) => console.error("Error al cargar JSON:", error));
   }, []);
 
   return (
     <div className={styles.contPrincipal}>
       <Header />
-      <Title Title="Experiencia"/>
+      <Title title="Experiencia"/>
       <div className={styles.contenedor}>
         {exp.map((i) => (
           <CardExperiencia

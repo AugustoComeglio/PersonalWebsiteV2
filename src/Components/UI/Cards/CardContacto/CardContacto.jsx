@@ -10,7 +10,7 @@ const CardContacto = ({ Nombre, Src, Info, Link }) => {
       <div className={styles.contenedorInfo}>
         <div>
           <div className={styles.contimg}>
-            <img className={styles.img} src={Src} title={Nombre} />
+            <img className={styles.img} src={Src} title={Nombre} alt={`Logo de ${Nombre}`}/>
           </div>
         </div>
         <div className={styles.datos}>

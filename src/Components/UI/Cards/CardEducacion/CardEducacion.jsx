@@ -33,7 +33,7 @@ const CardEducacion = ({
         <div className={styles.contenedorInfo}>
           <div>
             <div className={styles.contimg}>
-              <img className={styles.img} src={Src} title={Institucion}/>
+              <img className={styles.img} src={Src} title={Institucion} alt={`Logo de ${Institucion}`}/>
             </div>
           </div>
 

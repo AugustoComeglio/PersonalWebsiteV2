@@ -32,7 +32,7 @@ const CardCurso = ({
         <div className={styles.contenedorInfo}>
           <div>
             <div className={styles.contimg}>
-              <img className={styles.img} src={SrcIstitucion} title={Institucion}/>
+              <img className={styles.img} src={SrcIstitucion} title={Institucion} alt={`Logo de ${Institucion}`}/>
             </div>
           </div>
           <div className={styles.datos}>

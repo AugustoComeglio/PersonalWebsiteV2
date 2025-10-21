@@ -9,7 +9,7 @@ const Proyectos = () => {
   return (
     <div className={styles.contPrincipal}>
     <Header/>
-    <Title Title="Proyectos"/>
+    <Title title="Proyectos"/>
     <div className={styles.contenedor}>
       <Msj/>
     </div>

@@ -12,13 +12,14 @@ const Educacion = () => {
     useEffect(() => {
       fetch("Data/Educacion.json")
         .then((res) => res.json())
-        .then((data) => setEducacion(data));
+        .then((data) => setEducacion(data))
+        .catch((error) => console.error("Error al cargar JSON:", error));
     }, []);
 
   return (
     <div className={styles.contPrincipal}>
     <Header/>
-    <Title Title="Educación"/>
+    <Title title="Educación"/>
     <div className={styles.contenedor}>
       {ed.map((i) => (
           <CardEducacion

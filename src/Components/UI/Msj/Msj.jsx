@@ -4,7 +4,7 @@ import styles from './Msj.module.css'
 const Msj = () => {
   return (
     <div className={styles.msj}>
-      <b>Coming Soon...</b>
+      <b>Proximamente...</b>
     </div>
   )
 }

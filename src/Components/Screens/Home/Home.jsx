@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className={styles.contPrincipal}>
     <Header/>
-    <Title Title="Home"/>
+    <Title title="Home"/>
     <div className={styles.contenedor}>
       <CardPresentacion/>
     </div>

@@ -12,13 +12,14 @@ const Idiomas = () => {
   useEffect(() => {
     fetch("/Data/Idiomas.json")
       .then((res) => res.json())
-      .then((data) => setIdiomas(data));
+      .then((data) => setIdiomas(data))
+      .catch((error) => console.error("Error al cargar JSON:", error));
   }, []);
 
   return (
     <div className={styles.contPrincipal}>
       <Header />
-      <Title Title="Idiomas"/>
+      <Title title="Idiomas"/>
       <div className={styles.contenedor}>
         {idiomas.map((i) => (
           <CardIdioma key={i.id} Idioma={i.Idioma} Src={i.Src} Nivel={i.Nivel} />

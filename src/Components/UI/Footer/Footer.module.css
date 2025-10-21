@@ -5,15 +5,4 @@
   padding: 20px 0px;
   font-weight: 600;
   border-top: 2px solid #DAC3B3;
-  /* animation: slideDown 1s ease-out forwards; */
 }
-/* @keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */

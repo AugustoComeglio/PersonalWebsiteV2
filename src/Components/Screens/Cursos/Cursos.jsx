@@ -12,13 +12,14 @@ const Cursos = () => {
     useEffect(() => {
       fetch("/Data/Cursos.json")
         .then((res) => res.json())
-        .then((data) => setCurso(data));
+        .then((data) => setCurso(data))
+        .catch((error) => console.error("Error al cargar JSON:", error));
     }, []);
 
   return (
     <div className={styles.contPrincipal}>
     <Header/>
-    <Title Title="Cursos"/>
+    <Title title="Cursos"/>
     <div className={styles.contenedor}>
       {cursos.map((i) => (
           <CardCurso

@@ -1,39 +1,36 @@
 import React from "react";
 import styles from "./Header.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-
-  const navigate = useNavigate()
-
 
   return (
     <>
       <header className={styles.header}>
         <ul className={styles.ul}>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/home")}>Home</a>
+            <Link to="/home" className={styles.link}>Home</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/contacto")}>Contacto</a>
+            <Link to="/contacto" className={styles.link}>Contacto</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/experiencia")}>Experiencia</a>
+            <Link to="/experiencia" className={styles.link}>Experiencia</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/educacion")}>Educación</a>
+            <Link to="/educacion"className={styles.link}>Educación</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/cursos")}>Cursos</a>
+            <Link to="/cursos"className={styles.link}>Cursos</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/proyectos")}>Proyectos</a>
+            <Link to="/proyectos"className={styles.link}>Proyectos</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/herramientas")}>Herramientas</a>
+            <Link to="/herramientas"className={styles.link}>Herramientas</Link>
           </li>
           <li className={styles.li}>
-            <a className={styles.a} onClick={()=> navigate("/idiomas")}>Idiomas</a>
+            <Link to="/idiomas" className={styles.link}>Idiomas</Link>
           </li>
         </ul>
       </header>

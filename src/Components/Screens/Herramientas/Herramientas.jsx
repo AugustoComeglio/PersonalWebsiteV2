@@ -13,7 +13,7 @@ const Herramientas = () => {
     fetch("/Data/Herramientas.json")
       .then((res) => res.json())
       .then((data) => setHerramienta(data))
-      .catch((err) => console.error("Error al cargar JSON:", err));
+      .catch((error) => console.error("Error al cargar JSON:", error));
   }, []);
 
   const toggleAccordion = (index) => {
@@ -23,7 +23,7 @@ const Herramientas = () => {
   return (
     <div className={styles.contPrincipal}>
       <Header />
-      <Title Title="Herramientas" />
+      <Title title="Herramientas" />
       <div className={styles.contenedor}>
         {her.map((item, index) => (
           <div key={index} className={styles.accordionitem}>
@@ -43,6 +43,7 @@ const Herramientas = () => {
                       src={herr.Src}
                       title={herr.Nombre}
                       className={styles.imgHerramienta}
+                      alt={`Logo de ${herr.Nombre}`}
                     />
                   </div>
                 ))}

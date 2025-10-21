@@ -3,7 +3,6 @@
   width: 100%;
   padding: 20px 0px;
   border-bottom: 2px solid #DAC3B3;
-  /* animation: slideDown 1s ease-out forwards; */
 }
 
 .ul {
@@ -13,34 +12,23 @@
   overflow: hidden;
 }
 
-.ul .li {
+.li {
   float: left;
   cursor: pointer;
 }
 
-.ul .li .a {
+.link{
   display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight:700;
+  color: #DAC3B3;
 }
 
-.ul .li .a:hover {
+.link:hover {
   background-color: #6C5F5B;
   border-radius: 10px;
-}
-.a{
-  font-weight:700;
-  
+  color: #CDAB81;
 }
 
-/* @keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}*/

@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Title.module.css";
 
-const Title = ({ Title }) => {
+const Title = ({ title }) => {
   return (
     <div>
-      <div className={styles.titulo}>{Title}</div>
+      <div className={styles.titulo}>{title}</div>
     </div>
   );
 };

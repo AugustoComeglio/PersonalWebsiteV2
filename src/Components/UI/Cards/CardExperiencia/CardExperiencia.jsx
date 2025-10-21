@@ -22,7 +22,7 @@ const CardExperiencia = ({
         <div className={styles.contenedorInfo}>
           <div>
             <div className={styles.contimg}>
-              <img className={styles.img} src={Src} />
+              <img className={styles.img} src={Src} alt={`Logo de ${Empresa}`}/>
             </div>
           </div>
 

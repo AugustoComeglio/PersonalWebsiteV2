@@ -5,7 +5,7 @@ const CardPresentacion = () => {
   return (
     <div className={styles.card}>
         <div className={styles.contimg}>
-            <img src="/Images/Augusto.jpg" className={styles.img}></img>
+            <img src="/Images/Augusto.jpg" className={styles.img} alt="Foto de perfil de Augusto Comeglio"></img>
         </div>
         <div className={styles.continfo}>
             <div className={styles.continfo}>

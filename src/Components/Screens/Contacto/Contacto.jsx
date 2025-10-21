@@ -12,14 +12,15 @@ const Contacto = () => {
     useEffect(() => {
       fetch("/Data/Contacto.json")
         .then((res) => res.json())
-        .then((data) => setContacto(data));
+        .then((data) => setContacto(data))
+        .catch((error) => console.error("Error al cargar JSON:", error));
     }, []);
 
 
   return (
     <div className={styles.contPrincipal}>
     <Header/>
-    <Title Title="Contacto"/>
+    <Title title="Contacto"/>
     <div className={styles.contenedor}>
       {contacto.map((i) => (
         <CardContacto
