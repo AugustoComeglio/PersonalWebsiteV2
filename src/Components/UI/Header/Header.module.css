@@ -1,14 +1,13 @@
 .header {
-  background:#4F4A45;
+  background:#121212;
   width: 100%;
-  padding: 20px 0px;
-  border-bottom: 2px solid #DAC3B3;
+  border-bottom: 2px solid #A0AEC0;
+  display: flex;
+  justify-content: center;
 }
 
 .ul {
-  margin: 0px 0px 0px 10px;
   list-style-type: none;
-  padding: 0;
   overflow: hidden;
 }
 
@@ -20,15 +19,15 @@
 .link{
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
   text-decoration: none;
   font-weight:700;
-  color: #DAC3B3;
+  color: #FFFFFF;
 }
 
 .link:hover {
-  background-color: #6C5F5B;
   border-radius: 10px;
-  color: #CDAB81;
+  background-color: #E53E3E;
+  color: #FFFFFF;
 }
 

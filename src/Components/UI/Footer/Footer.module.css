@@ -1,8 +1,14 @@
 .footer {
-	background:#4F4A45;
+  background:#121212;
   width: 100%;
   text-align: center;
   padding: 20px 0px;
   font-weight: 600;
-  border-top: 2px solid #DAC3B3;
+  border-top: 2px solid #A0AEC0;
 }
+/* 
+#121212
+#FFFFFF 
+#E53E3E
+#A0AEC0
+*/

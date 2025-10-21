@@ -1,7 +1,7 @@
 .card{
     min-height: 200px;
     width: 1500px;
-    background-color: #6C5F5B;
+    background-color: #121212;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
@@ -10,7 +10,7 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 .img{
@@ -24,8 +24,8 @@
     border-radius: 5px 5px 0px 0px;
     text-align: center;
     font-size: 20px;
-    border-bottom: 2px solid #CDAB81;
-    color: #CDAB81;
+    border-bottom: 2px solid #A0AEC0;
+    color: #E53E3E;
     font-weight: 900;
 }
 .descripcion{
@@ -50,7 +50,7 @@
 }
 .link{
     text-decoration: none;
-    color: #CDAB81;
+    color: #E53E3E;
     font-weight: 600;
 }
 
