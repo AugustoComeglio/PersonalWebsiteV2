@@ -1,8 +1,11 @@
-import React from "react";
+import { useContext } from "react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../../../Context/ThemeContext";
 
 const Header = () => {
+
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
     <>
@@ -33,6 +36,10 @@ const Header = () => {
             <Link to="/idiomas" className={styles.link}>Idiomas</Link>
           </li>
         </ul>
+        <label className={styles.switch}>
+            <input type="checkbox" onChange={toggleTheme} checked={theme === 'dark'} />
+            <span className={styles.slider}></span>
+        </label>
       </header>
     </>
   );

@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     width: 700px;        
-    background-color: #121212;
+    background-color: var(--background-color);
     border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* box-shadow: 0px 10px 15px var(--secondary-color); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 10px 15px var(--primary-color);
 }
 
 .img{
@@ -24,8 +25,8 @@
     justify-content: center;
     border-radius: 5px 5px 0px 0px;
     justify-content: space-between;
-    border-bottom: 2px solid #A0AEC0;
-    color: #E53E3E;
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--primary-color);
 }
  
 .statustexto{
@@ -71,42 +72,31 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: var(--secondary-color);
 }
 
 
 .inprogress .statusicon {
-  background-color: #0099FF;
-  box-shadow: 0 0 6px #0099FF;
+  background-color: var(--Status-InProgress);
+  box-shadow: 0 0 5px var(--Status-InProgress);
 }
 .inprogress .statustexto {
-  color: #0099FF;
-  text-shadow: 0 0 6px #0099FF;
+  color: var(--Status-InProgress);
+  text-shadow: 0 0 5px var(--Status-InProgress);
 }
 
 .done .statusicon {
-  background-color: #00FF00;
-  box-shadow: 0 0 6px #00FF00;
+  background-color: var(--Status-Done);
+  box-shadow: 0 0 5px var(--Status-Done);
 }
 .done .statustexto {
-  color: #00FF00;
-  text-shadow: 0 0 6px #00FF00;
+  color: var(--Status-Done);
+  text-shadow: 0 0 5px var(--Status-Done);
   
 }
 .contButton{
   display: flex;
   justify-content: left;
-}
-.buttonInprogress{
-  border-radius: 5px;
-  cursor: pointer;
-  border: 0px;
-  padding: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  font-family: "Montserrat"!;
-}
-.buttonInprogress:hover{
-  cursor:not-allowed;
 }
 .aInprogress{
   pointer-events: none;
@@ -115,5 +105,5 @@
 }
 .aDone{
   text-decoration: none;
-  color: #E53E3E;
+  color: var(--primary-color);
 }

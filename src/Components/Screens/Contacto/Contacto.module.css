@@ -4,11 +4,11 @@
     min-height: 100vh;
 }
 .contenedor{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
     padding: 50px 100px 50px 100px;
     flex: 1;
-    gap: 50px; 
+    gap: 50px 0px;
 }

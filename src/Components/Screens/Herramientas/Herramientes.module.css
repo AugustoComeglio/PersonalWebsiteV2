@@ -17,11 +17,11 @@
     border-radius: 10px;
     margin-bottom: 15px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
+
 .accordionheader {
-  background-color: lightgray;
+  background-color: var(--secondary-color);
   padding: 20px;
   width: 100%;;
   text-align: left;
@@ -30,26 +30,26 @@
   cursor: pointer;
   font-size: 18px;
   transition: background 0.3s;
-  color: #E53E3E;
+  color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 900;
 }
 .accordionheader.active {
-  background-color: #E53E3E;
-  color: #FFFFFF;
+  background-color: var(--primary-color);
+  color: var(--background-color);
   padding: 20px;
   font-weight: 900;
 }
 
 .accordionheader:hover {
-  background-color: #E53E3E;
-  color: #FFFFFF;
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }
 
 .accordioncontent {
-  background-color: lightgray;
+  background-color: var(--secondary-color);
    max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease, padding 0.4s ease;
@@ -69,7 +69,7 @@
 }
 
 .card {
-  background:lightgray;
+  background:var(--secondary-color);
   border-radius: 10px;
   padding: 5px;
   display: flex;
@@ -79,7 +79,7 @@
 }
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 5px 10px var(--primary-color);
 }
 .imgHerramienta {
   width: 60px;
@@ -98,10 +98,3 @@
   max-height: 1000px;
   padding: 15px 0; 
 }
-
-/* 
-#121212
-#FFFFFF 
-#E53E3E
-#A0AEC0
-*/
