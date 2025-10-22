@@ -13,8 +13,7 @@ const CardExperiencia = ({
   Src,
 }) => {
   return (
-    <>
-      <div className={styles.card}>
+      <article className={styles.card}>
         <div className={styles.title}>
           <b>{Puesto}</b>
         </div>
@@ -50,8 +49,7 @@ const CardExperiencia = ({
             </p>
           </div>
         </div>
-      </div>
-    </>
+      </article>
   );
 };
 

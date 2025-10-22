@@ -9,5 +9,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px 250px 50px 250px;    
+}
+.main{
     flex: 1;
 }

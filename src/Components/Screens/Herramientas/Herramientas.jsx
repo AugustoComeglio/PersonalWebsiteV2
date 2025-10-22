@@ -23,35 +23,48 @@ const Herramientas = () => {
   return (
     <div className={styles.contPrincipal}>
       <Header />
-      <Title title="Herramientas" />
-      <div className={styles.contenedor}>
-        {her.map((item, index) => (
-          <div key={index} className={styles.accordionitem}>
-            <button
-              className={`${styles.accordionheader} ${ activeIndex === index ? styles.active : "" }`}
-              onClick={() => toggleAccordion(index)}>
-              <span>{item.Tipo}</span>
-              <span className={`${styles.accordionicon} ${
-                  activeIndex === index ? styles.rotated : "" }`}>&gt;</span>
-            </button>
-            <div
-              className={`${styles.accordioncontent} ${ activeIndex === index ? styles.active : ""}`}>
-              <div className={styles.grid}>
-                {item.Herramientas.map((herr, i) => (
-                  <div key={i} className={styles.card}>
-                    <img
-                      src={herr.Src}
-                      title={herr.Nombre}
-                      className={styles.imgHerramienta}
-                      alt={`Logo de ${herr.Nombre}`}
-                    />
-                  </div>
-                ))}
+      <main className={styles.main}>
+        <Title title="Herramientas" />
+        <div className={styles.contenedor}>
+          {her.map((item, index) => (
+            <div key={index} className={styles.accordionitem}>
+              <button
+                className={`${styles.accordionheader} ${
+                  activeIndex === index ? styles.active : ""
+                }`}
+                onClick={() => toggleAccordion(index)}
+              >
+                <span>{item.Tipo}</span>
+                <span
+                  className={`${styles.accordionicon} ${
+                    activeIndex === index ? styles.rotated : ""
+                  }`}
+                >
+                  &gt;
+                </span>
+              </button>
+              <div
+                className={`${styles.accordioncontent} ${
+                  activeIndex === index ? styles.active : ""
+                }`}
+              >
+                <div className={styles.grid}>
+                  {item.Herramientas.map((herr, i) => (
+                    <div key={i} className={styles.card}>
+                      <img
+                        src={herr.Src}
+                        title={herr.Nombre}
+                        className={styles.imgHerramienta}
+                        alt={`Logo de ${herr.Nombre}`}
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </main>
       <Footer />
     </div>
   );

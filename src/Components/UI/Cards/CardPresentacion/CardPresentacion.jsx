@@ -3,7 +3,7 @@ import styles from './CardPresentacion.module.css'
 
 const CardPresentacion = () => {
   return (
-    <div className={styles.card}>
+    <article className={styles.card}>
         <div className={styles.contimg}>
             <img src="/Images/Augusto.jpg" className={styles.img} alt="Foto de perfil de Augusto Comeglio"></img>
         </div>
@@ -27,7 +27,7 @@ const CardPresentacion = () => {
                 </section>
             </div>
         </div>
-    </div>
+    </article>
   )
 }
 

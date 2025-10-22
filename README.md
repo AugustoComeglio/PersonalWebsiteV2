@@ -48,5 +48,5 @@ Asegúrate de tener Node.js instalado en tu máquina.
 
 ### Ejecutando la Aplicación
 Para iniciar la aplicación en modo de desarrollo, ejecuta el siguiente comando:
-```pm run dev```
+```npm run dev```
 Esto iniciará el servidor de desarrollo de Vite y podrás ver la aplicación en tu navegador en http://localhost:5173.

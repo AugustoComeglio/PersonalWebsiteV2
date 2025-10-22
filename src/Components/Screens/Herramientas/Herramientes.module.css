@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: center;
     padding: 50px 100px 50px 100px;    
-    flex: 1;
 }
 
 .accordionitem {
@@ -97,4 +96,7 @@
 .active {
   max-height: 1000px;
   padding: 15px 0; 
+}
+.main{
+    flex: 1;
 }

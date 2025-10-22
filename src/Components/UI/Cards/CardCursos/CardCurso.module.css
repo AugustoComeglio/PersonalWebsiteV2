@@ -7,19 +7,11 @@
     /* box-shadow: 0px 10px 15px var(--secondary-color); */
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
-
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 15px var(--primary-color);
 }
-
-.img{
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    border-radius: 10px;
-}
-.conttitle{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,35 +20,11 @@
     border-bottom: 2px solid var(--secondary-color);
     color: var(--primary-color);
 }
- 
-.statustexto{
-    font-weight: 600;
-}
 .title{
     padding: 10px;
     font-size: 20px;
     font-weight: 900;
 }
-.descripcion{
-    padding: 10px;
-    margin: 0px;
-}
-.contimg{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-.contenedorInfo{
-    display: flex;
-    flex-direction: row;
-}
-.datos{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-}
-
 .status {
   padding: 10px 10px 10px 0px;
   font-size: 20px;
@@ -67,15 +35,15 @@
   font-weight: 600;
   text-transform: capitalize;
 }
-
+.statustexto{
+    font-weight: 600;
+}
 .statusicon {
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: var(--secondary-color);
 }
-
-
 .inprogress .statusicon {
   background-color: var(--Status-InProgress);
   box-shadow: 0 0 5px var(--Status-InProgress);
@@ -84,7 +52,6 @@
   color: var(--Status-InProgress);
   text-shadow: 0 0 5px var(--Status-InProgress);
 }
-
 .done .statusicon {
   background-color: var(--Status-Done);
   box-shadow: 0 0 5px var(--Status-Done);
@@ -92,11 +59,41 @@
 .done .statustexto {
   color: var(--Status-Done);
   text-shadow: 0 0 5px var(--Status-Done);
-  
 }
-.contButton{
-  display: flex;
-  justify-content: left;
+.bodyCard{
+    display: flex;
+    flex-direction: row;
+}
+.contimg{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px 0px;
+}
+.descripcion{
+    padding: 0px;
+    margin: 0px;
+}
+.descripcion dt {
+  font-weight: bold;
+  display: inline;
+  margin-right: 5px; 
+}
+.descripcion dd {
+  display: inline;
+  margin-left: 0;
 }
 .aInprogress{
   pointer-events: none;

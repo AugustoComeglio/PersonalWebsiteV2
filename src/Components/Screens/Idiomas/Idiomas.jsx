@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import Title from "../../UI/Title/Title";
 
 const Idiomas = () => {
-
   const [idiomas, setIdiomas] = useState([]);
 
   useEffect(() => {
@@ -19,12 +18,19 @@ const Idiomas = () => {
   return (
     <div className={styles.contPrincipal}>
       <Header />
-      <Title title="Idiomas"/>
-      <div className={styles.contenedor}>
-        {idiomas.map((i) => (
-          <CardIdioma key={i.id} Idioma={i.Idioma} Src={i.Src} Nivel={i.Nivel} />
-        ))}
-      </div>
+      <main className={styles.main}>
+        <Title title="Idiomas" />
+        <div className={styles.contenedor}>
+          {idiomas.map((i) => (
+            <CardIdioma
+              key={i.id}
+              Idioma={i.Idioma}
+              Src={i.Src}
+              Nivel={i.Nivel}
+            />
+          ))}
+        </div>
+      </main>
       <Footer />
     </div>
   );

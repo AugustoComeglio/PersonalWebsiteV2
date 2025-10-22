@@ -3,7 +3,7 @@ import styles from './CardIdioma.module.css'
 
 const CardIdioma = ({Idioma, Src, Nivel}) => {
     return (
-        <div className={styles.card}>
+        <article className={styles.card}>
             <div  className={styles.contimg}>
                 <img className={styles.img} src={Src} title={Idioma} alt={`Logo de ${Idioma}`}/> 
             </div>
@@ -11,7 +11,7 @@ const CardIdioma = ({Idioma, Src, Nivel}) => {
                 <div className={styles.title}>{Idioma}</div>
                 <div className={styles.descripcion}><b>Nivel: </b>{Nivel}</div>
             </div>
-        </div>
+        </article>
     )
 }
 

@@ -11,9 +11,8 @@ const CardCurso = ({
   Status,
 }) => {
   return (
-    <>
-      <div className={styles.card}>
-        <div className={styles.conttitle}>
+      <article className={styles.card}>
+        <header className={styles.header}>
           <div className={styles.title}>{Titulo}</div>
           <div
             className={`${styles.status} ${
@@ -27,20 +26,20 @@ const CardCurso = ({
             <div className={styles.statusicon}></div>
             <div className={styles.statustexto}>{Status}</div>
           </div>
-        </div>
+        </header>
 
-        <div className={styles.contenedorInfo}>
-          <div>
+        <div className={styles.bodyCard}>
             <div className={styles.contimg}>
               <img className={styles.img} src={SrcIstitucion} title={Institucion} alt={`Logo de ${Institucion}`}/>
             </div>
-          </div>
-          <div className={styles.datos}>
+          <dl className={styles.datos}>
             <div className={styles.descripcion}>
-              <b>Institución:</b> {Institucion}
+              <dt>Institución:</dt>
+              <dd>{Institucion}</dd>
             </div>
             <div className={styles.descripcion}>
-              <b>Expedición:</b> {Expedicion}
+              <dt>Expedición:</dt>
+              <dd>{Expedicion}</dd>
             </div>
             <div className={styles.descripcion}>
                 <a
@@ -50,10 +49,9 @@ const CardCurso = ({
                   <b>Ver Certificado</b>
                 </a>
             </div>
-          </div>
+          </dl>
         </div>
-      </div>
-    </>
+      </article>
   );
 };
 

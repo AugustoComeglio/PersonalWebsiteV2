@@ -1,21 +1,23 @@
-import React from 'react'
-import Header from '../../UI/Header/Header'
-import Footer from '../../UI/Footer/Footer'
-import styles from './Proyectos.module.css'
-import Msj from '../../UI/Msj/Msj'
-import Title from '../../UI/Title/Title'
+import React from "react";
+import Header from "../../UI/Header/Header";
+import Footer from "../../UI/Footer/Footer";
+import styles from "./Proyectos.module.css";
+import Msj from "../../UI/Msj/Msj";
+import Title from "../../UI/Title/Title";
 
 const Proyectos = () => {
   return (
     <div className={styles.contPrincipal}>
-    <Header/>
-    <Title title="Proyectos"/>
-    <div className={styles.contenedor}>
-      <Msj/>
+      <Header />
+      <main className={styles.main}>
+        <Title title="Proyectos" />
+        <div className={styles.contenedor}>
+          <Msj />
+        </div>
+      </main>
+      <Footer />
     </div>
-    <Footer/>
-    </div> 
-  )
-}
+  );
+};
 
-export default Proyectos
+export default Proyectos;

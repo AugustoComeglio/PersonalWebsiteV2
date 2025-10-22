@@ -8,7 +8,9 @@
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    padding: 50px 100px 50px 100px;
-    flex: 1;
     gap: 50px 0px;
+    padding: 50px 100px 50px 100px;
+}
+.main{
+    flex: 1;
 }

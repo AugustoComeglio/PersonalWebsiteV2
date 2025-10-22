@@ -11,13 +11,7 @@
   transform: translateY(-5px);
   box-shadow: 0px 10px 15px var(--primary-color);
 }
-.img{
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    border-radius: 10px;
-}
-.conttitle{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -31,20 +25,42 @@
     font-weight: 900;
     text-align: center;
 }
-.descripcion{
-    padding: 10px;
-    margin: 0px;
+.bodyCard{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
 }
 .contimg{
     display: flex;
     align-items: center;
     padding: 10px;
 }
-.contenedorInfo{
+.img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.datos{
     display: flex;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px 0px;
+}
+.descripcion{
+    padding: 0px;
+    margin: 0px;
+}
+.descripcion dt {
+  font-weight: bold;
+  display: inline;
+  margin-right: 5px; 
+}
+.descripcion dd {
+  display: inline;
+  margin-left: 0;
 }
 .link{
     text-decoration: none;

@@ -3,25 +3,22 @@ import styles from "./CardContacto.module.css";
 
 const CardContacto = ({ Nombre, Src, Info, Link }) => {
   return (
-    <div className={styles.card}>
-      <div className={styles.conttitle}>
+    <article className={styles.card}>
+      <header className={styles.header}>
         <div className={styles.title}>{Nombre}</div>
-      </div>
-      <div className={styles.contenedorInfo}>
-        <div>
+      </header>
+      <div className={styles.bodyCard}>
           <div className={styles.contimg}>
             <img className={styles.img} src={Src} title={Nombre} alt={`Logo de ${Nombre}`}/>
           </div>
-        </div>
-        <div className={styles.datos}>
+        <dl className={styles.datos}>
           <div className={styles.descripcion}>
-            <b>Info Contacto: </b>
-            {Link ? 
-            (<a className={styles.link} href={Link} target="_blank">{Nombre}</a>) : (Info)}
-          </div>
+          <dt>Info Contacto:</dt>
+          <dd>{Link ? (<a className={styles.link} href={Link} target="_blank">{Nombre}</a>) : (Info)}</dd> 
         </div>
+        </dl>
       </div>
-    </div>
+    </article>
   );
 };
 

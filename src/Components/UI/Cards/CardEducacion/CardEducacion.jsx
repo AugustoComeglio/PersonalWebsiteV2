@@ -10,8 +10,7 @@ const CardEducacion = ({
   Status,
 }) => {
   return (
-    <>
-      <div className={styles.card}>
+      <article className={styles.card}>
         <div className={styles.conttitle}>
           <div className={styles.title}>
             {Institucion}
@@ -49,8 +48,7 @@ const CardEducacion = ({
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </article>
   );
 };
 

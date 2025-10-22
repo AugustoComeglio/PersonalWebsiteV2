@@ -19,23 +19,25 @@ const Experiencia = () => {
   return (
     <div className={styles.contPrincipal}>
       <Header />
-      <Title title="Experiencia"/>
-      <div className={styles.contenedor}>
-        {exp.map((i) => (
-          <CardExperiencia
-            key={i.id}
-            Puesto={i.Puesto}
-            Empresa={i.Empresa}
-            Modalidad={i.Modalidad}
-            FechaInicio={i.FechaInicio}
-            FechaFin={i.FechaFin}
-            Web={i.Web}
-            Proyecto={i.Proyecto}
-            Tareas={i.Tareas}
-            Src={i.Src}
-          />
-        ))}
-      </div>
+      <main className={styles.main}>
+        <Title title="Experiencia" />
+        <div className={styles.contenedor}>
+          {exp.map((i) => (
+            <CardExperiencia
+              key={i.id}
+              Puesto={i.Puesto}
+              Empresa={i.Empresa}
+              Modalidad={i.Modalidad}
+              FechaInicio={i.FechaInicio}
+              FechaFin={i.FechaFin}
+              Web={i.Web}
+              Proyecto={i.Proyecto}
+              Tareas={i.Tareas}
+              Src={i.Src}
+            />
+          ))}
+        </div>
+      </main>
       <Footer />
     </div>
   );
