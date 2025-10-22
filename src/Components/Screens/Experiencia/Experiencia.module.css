@@ -3,16 +3,19 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.main{
+    flex: 1;
+}
 .contenedor{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding: 50px 100px;
-    gap: 50px; 
+    padding: 25px 15px;
+    gap: 30px; 
 }
-.main{
-    flex: 1;
+@media (min-width: 768px) {
+    .contenedor {
+        padding: 50px 100px;
+    }
 }
-
-

@@ -11,6 +11,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
-    gap: 50px; 
+    padding: 25px 15px;
+    gap: 30px; 
+}
+@media (min-width: 768px) {
+    .contenedor {
+        padding: 50px 100px; 
+        gap: 50px;
+    }
 }

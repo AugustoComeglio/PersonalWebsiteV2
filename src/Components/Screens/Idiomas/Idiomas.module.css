@@ -3,14 +3,29 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.main{
+    flex: 1;
+}
 .contenedor{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 50px 0px;
-    padding: 50px 100px;
+    gap: 25px 0px;
+    padding: 25px 50px;
 }
-.main{
-    flex: 1;
+/* Para tablets */
+@media (min-width: 768px) {
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Para escritorios */
+@media (min-width: 1024px) {
+    .contenedor {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 0px;
+        padding: 50px 100px;
+    }
 }
