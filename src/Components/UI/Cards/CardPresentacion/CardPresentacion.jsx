@@ -4,13 +4,15 @@ import styles from './CardPresentacion.module.css'
 const CardPresentacion = () => {
   return (
     <article className={styles.card}>
-        <div className={styles.contimg}>
+        <header className={styles.header}>
+            <div className={styles.title}>Auguto Comeglio</div>
+            <div className={styles.profesion}>Estudiante de Ingenieria en Sistemas de Información - SSR RPA Developer</div>
+        </header>
+        <div className={styles.bodyCard}>
+             <div className={styles.contimg}>
             <img src="/Images/Augusto.jpg" className={styles.img} alt="Foto de perfil de Augusto Comeglio"></img>
         </div>
-        <div className={styles.continfo}>
-            <div className={styles.continfo}>
-                <div className={styles.title}>Auguto Comeglio</div>
-                <div className={styles.profesion}>Estudiante de Ingenieria en Sistemas de Información - SSR RPA Developer</div>
+            <div className={styles.datos}>
                 <section className={styles.descripcion}>
                     <h3>Acerca de mí</h3>
                     <p>Soy un estudiante avanzado de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional, apasionado por la tecnología y el desarrollo de software. Actualmente, me desempeño como RPA Developer en CTRL365, donde he adquirido experiencia en automatización de procesos y desarrollo de soluciones tecnológicas eficientes.</p>

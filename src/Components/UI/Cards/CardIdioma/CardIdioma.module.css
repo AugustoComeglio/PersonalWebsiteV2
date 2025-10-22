@@ -1,31 +1,61 @@
-.card{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    background-color: var(--background-color);
-    border-radius: 10px;
-    /* box-shadow: 0px 10px 15px var(--secondary-color); */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  /* box-shadow: 0px 10px 15px var(--secondary-color); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 15px var(--primary-color);
 }
-.contimg{
-    display: flex;
-    align-items: center;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px 5px 0px 0px;
+  color: var(--primary-color);
 }
-.img{
-    height: 250px;
-    width: 400px;
-    border-radius: 10px;
+.title {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
 }
-.title{
-    padding: 5px 10px;
-    font-weight: 900;
-
+.bodyCard {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
-.descripcion{
-    padding: 5px 10px;
+.contimg {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.img {
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+}
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 10px 0px;
+}
+.descripcion {
+  padding: 0px;
+  margin: 0px;
+}
+.descripcion dt {
+  font-weight: bold;
+  display: inline;
+  margin-right: 5px;
+}
+.descripcion dd {
+  display: inline;
+  margin-left: 0;
 }

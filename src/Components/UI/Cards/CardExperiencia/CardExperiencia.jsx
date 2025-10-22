@@ -13,43 +13,57 @@ const CardExperiencia = ({
   Src,
 }) => {
   return (
-      <article className={styles.card}>
+    <article className={styles.card}>
+      <hearder className={styles.header}>
         <div className={styles.title}>
           <b>{Puesto}</b>
         </div>
+      </hearder>
 
-        <div className={styles.contenedorInfo}>
-          <div>
-            <div className={styles.contimg}>
-              <img className={styles.img} src={Src} alt={`Logo de ${Empresa}`}/>
-            </div>
-          </div>
-
-          <div className={styles.datos}>
-            <div className={styles.descripcion}>
-              <b>Empresa:</b> {Empresa}
-            </div>
-            <div className={styles.descripcion}>
-              <b>Modalidad:</b> {Modalidad}
-            </div>
-            <div className={styles.descripcion}>
-              <b>Fecha Incio:</b> {FechaInicio}
-            </div>
-            <div className={styles.descripcion}>
-              <b>Fecha Fin:</b> {FechaFin}
-            </div>
-            <div className={styles.descripcion}>
-              <b>Web:</b><a className={styles.link} href={Web} target="_blank"> {Empresa}</a>
-            </div>
-            <div className={styles.descripcion}>
-              <b>Proyecto:</b> {Proyecto}
-            </div>
-            <p className={styles.descripcion}>
-              <b>Tareas:</b> {Tareas}
-            </p>
+      <div className={styles.bodyCard}>
+        <div>
+          <div className={styles.contimg}>
+            <img className={styles.img} src={Src} alt={`Logo de ${Empresa}`} />
           </div>
         </div>
-      </article>
+
+        <dl className={styles.datos}>
+          <div className={styles.descripcion}>
+            <dt>Empresa:</dt>
+            <dd>{Empresa}</dd>
+          </div>
+          <div className={styles.descripcion}>
+            <dt>Modalidad:</dt>
+            <dd>{Modalidad}</dd>
+          </div>
+          <div className={styles.descripcion}>
+            <dt>Fecha Incio:</dt>
+            <dd>{FechaInicio}</dd>
+          </div>
+          <div className={styles.descripcion}>
+            <dt>Fecha Fin:</dt>
+            <dd>{FechaFin}</dd>
+          </div>
+          <div className={styles.descripcion}>
+            <dt>Web:</dt>
+            <dd>
+              <a className={styles.link} href={Web} target="_blank">
+                {" "}
+                {Empresa}
+              </a>
+            </dd>
+          </div>
+          <div className={styles.descripcion}>
+            <dt>Proyecto:</dt>
+            <dd>{Proyecto}</dd>
+          </div>
+          <p className={styles.descripcion}>
+            <dt>Tareas:</dt>
+            <dd>{Tareas}</dd>
+          </p>
+        </dl>
+      </div>
+    </article>
   );
 };
 

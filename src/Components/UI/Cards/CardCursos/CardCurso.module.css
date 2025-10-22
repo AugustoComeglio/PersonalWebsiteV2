@@ -1,29 +1,29 @@
-.card{
-    display: flex;
-    flex-direction: column;
-    width: 700px;        
-    background-color: var(--background-color);
-    border-radius: 10px;
-    /* box-shadow: 0px 10px 15px var(--secondary-color); */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  /* box-shadow: 0px 10px 15px var(--secondary-color); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 15px var(--primary-color);
 }
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 5px 5px 0px 0px;
-    justify-content: space-between;
-    border-bottom: 2px solid var(--secondary-color);
-    color: var(--primary-color);
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px 5px 0px 0px;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--primary-color);
 }
-.title{
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 900;
+.title {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
 }
 .status {
   padding: 10px 10px 10px 0px;
@@ -35,8 +35,8 @@
   font-weight: 600;
   text-transform: capitalize;
 }
-.statustexto{
-    font-weight: 600;
+.statustexto {
+  font-weight: 600;
 }
 .statusicon {
   width: 12px;
@@ -60,47 +60,47 @@
   color: var(--Status-Done);
   text-shadow: 0 0 5px var(--Status-Done);
 }
-.bodyCard{
-    display: flex;
-    flex-direction: row;
+.bodyCard {
+  display: flex;
+  flex-direction: row;
 }
-.contimg{
-    display: flex;
-    align-items: center;
-    padding: 10px;
+.contimg {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
-.img{
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    border-radius: 10px;
+.img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 10px;
 }
-.datos{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    gap: 20px 0px;
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 20px 0px;
 }
-.descripcion{
-    padding: 0px;
-    margin: 0px;
+.descripcion {
+  padding: 0px;
+  margin: 0px;
 }
 .descripcion dt {
   font-weight: bold;
   display: inline;
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 .descripcion dd {
   display: inline;
   margin-left: 0;
 }
-.aInprogress{
+.aInprogress {
   pointer-events: none;
   text-decoration: none;
   color: inherit;
 }
-.aDone{
+.aDone {
   text-decoration: none;
   color: var(--primary-color);
 }
