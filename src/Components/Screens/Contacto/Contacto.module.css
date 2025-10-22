@@ -7,17 +7,10 @@
     flex: 1;
 }
 .contenedor{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 25px 0px;
     padding: 25px 50px;
-}
-@media (min-width: 768px) {
-    .contenedor {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px 0px;
-        padding: 50px 100px;
-    }
 }

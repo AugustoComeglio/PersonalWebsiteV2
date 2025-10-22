@@ -7,25 +7,10 @@
     flex: 1;
 }
 .contenedor{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
     gap: 25px 0px;
     padding: 25px 50px;
-}
-/* Para tablets */
-@media (min-width: 768px) {
-    .contenedor {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Para escritorios */
-@media (min-width: 1024px) {
-    .contenedor {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 50px 0px;
-        padding: 50px 100px;
-    }
 }

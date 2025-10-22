@@ -67,7 +67,7 @@
 @media (min-width: 768px) {
     .bodyCard {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
     }
     .img {
         height: 250px;
