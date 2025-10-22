@@ -26,6 +26,7 @@
     text-align: center;
 }
 .bodyCard{
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-items: center;

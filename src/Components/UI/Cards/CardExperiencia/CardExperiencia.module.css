@@ -1,10 +1,10 @@
 .card {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 1200px;
   background-color: var(--background-color);
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
@@ -26,6 +26,7 @@
   text-align: center;
 }
 .bodyCard {
+  padding: 20px;
   display: flex;
   flex-direction: column;
    align-items: center;
