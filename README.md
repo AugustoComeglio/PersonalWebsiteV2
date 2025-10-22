@@ -20,15 +20,16 @@ Este proyecto fue construido utilizando las siguientes tecnologías:
 
 ## Estructura del Proyecto
 El proyecto sigue una estructura organizada para separar las diferentes partes de la aplicación:
+```bash
 /src
-|-- /Components
-|   |-- /Screens       # Componentes de página (Home, Contacto, etc.)
-|   |-- /UI            # Componentes reutilizables (Botones, Cards, etc.)
-|-- /Context         # Contexto de React (ThemeContext)
-|-- /Routes          # Configuración de rutas (AppRouter)
-|-- App.jsx          # Componente principal de la aplicación
-|-- main.jsx         # Punto de entrada de la aplicación
-
+|-- /Components 
+|   |-- /Screens # Componentes de página (Home, Contacto, etc.)
+|   |-- /UI      # Componentes reutilizables (Botones, Cards, etc.)
+|-- /Context     # Contexto de React (ThemeContext)
+|-- /Routes      # Configuración de rutas (AppRouter)
+|-- App.jsx      # Componente principal de la aplicación
+|-- main.jsx     # Punto de entrada de la aplicación
+```
 ## Primeros Pasos
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
@@ -38,14 +39,14 @@ Asegúrate de tener Node.js instalado en tu máquina.
 ### Instalación
 #### Clona el repositorio:
 
-git clone https://github.com/tu-usuario/tu-repositorio.git
+```git clone https://github.com/tu-usuario/tu-repositorio.git```
 #### Navega al directorio del proyecto:
-cd tu-repositorio
+```cd tu-repositorio```
 
 #### Instala las dependencias:
-npm install
+```npm install```
 
 ### Ejecutando la Aplicación
 Para iniciar la aplicación en modo de desarrollo, ejecuta el siguiente comando:
-npm run dev
+```pm run dev```
 Esto iniciará el servidor de desarrollo de Vite y podrás ver la aplicación en tu navegador en http://localhost:5173.
