@@ -19,14 +19,13 @@
   justify-content: space-between;
   border-bottom: 2px solid var(--secondary-color);
   color: var(--primary-color);
+  padding: 10px;
 }
 .title {
-  padding: 10px;
   font-size: 20px;
   font-weight: 900;
 }
 .status {
-  padding: 10px 10px 10px 0px;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -56,6 +55,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 .contimg {
   display: flex;

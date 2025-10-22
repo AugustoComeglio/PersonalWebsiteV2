@@ -18,9 +18,9 @@
     border-radius: 5px 5px 0px 0px;
     border-bottom: 2px solid var(--secondary-color);
     color: var(--primary-color);
+    padding: 10px;
 }
 .title{
-    padding: 10px;
     font-size: 20px;
     font-weight: 900;
     text-align: center;
@@ -28,7 +28,7 @@
 .bodyCard{
     padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
 }
@@ -70,3 +70,13 @@
 }
 
 
+
+@media (min-width: 768px) {
+    .bodyCard {
+        flex-direction: row;
+    }
+    .img {
+        height: 100px;
+        width: 100px;
+    }
+}
