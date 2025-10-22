@@ -160,6 +160,10 @@
             {
                "Nombre": "Trello",
                 "Src": "Images/Herramientas/trello-svgrepo-com.svg" 
+            },
+            {
+               "Nombre": "Devops",
+                "Src": "Images/Herramientas/azure-devops-svgrepo-com.svg" 
             }
         ]
     }

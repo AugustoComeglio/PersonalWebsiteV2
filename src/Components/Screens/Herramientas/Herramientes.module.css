@@ -22,7 +22,7 @@
 .accordionheader {
   background-color: var(--secondary-color);
   padding: 20px;
-  width: 100%;;
+  width: 100%;
   text-align: left;
   border: none;
   outline: none;
@@ -55,8 +55,7 @@
   padding: 0 20px;
 }
 
-.accordioncontent.active {
-  max-height: 400px; 
+.accordioncontent.active { 
   padding: 20px;
 }
 .grid {
@@ -94,7 +93,7 @@
   transform: rotate(90deg);
 }
 .active {
-  max-height: 1000px;
+  max-height: fit-content;
   padding: 15px 0; 
 }
 .main{
