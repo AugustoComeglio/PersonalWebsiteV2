@@ -3,12 +3,11 @@
     flex-direction: column;
     min-height: 100vh;
 }
-
 .contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 250px 50px 250px;    
+    padding: 50px 100px;
 }
 .main{
     flex: 1;

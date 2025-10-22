@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px;
     gap: 50px; 
 }
 .main{

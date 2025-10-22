@@ -19,7 +19,7 @@ const Contacto = () => {
     <div className={styles.contPrincipal}>
       <Header />
       <main className={styles.main}>
-        <Title title="Contacto" />
+        <Title title="Contacto"/>
         <div className={styles.contenedor}>
           {contacto.map((i) => (
             <CardContacto

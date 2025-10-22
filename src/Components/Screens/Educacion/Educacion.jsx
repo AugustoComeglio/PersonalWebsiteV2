@@ -17,9 +17,9 @@ const Educacion = () => {
 
   return (
     <div className={styles.contPrincipal}>
-      <Header />
+      <Header/>
       <main className={styles.main}>
-        <Title title="Educación" />
+        <Title title="Educación"/>
         <div className={styles.contenedor}>
           {ed.map((i) => (
             <CardEducacion
