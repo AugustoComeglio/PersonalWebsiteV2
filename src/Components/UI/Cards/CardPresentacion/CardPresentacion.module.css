@@ -63,7 +63,15 @@
 } 
 .descripcion li{
     margin: 5px;
-}   
+}
+.descripcion{
+    padding-top: 10px;
+} 
+.descripcion a{
+    text-decoration: none;
+    margin: 5px;
+    color: var(--text-color) ;
+}     
 @media (min-width: 768px) {
     .bodyCard {
         flex-direction: row;
