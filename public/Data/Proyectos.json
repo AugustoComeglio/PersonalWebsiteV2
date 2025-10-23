@@ -1,3 +1,109 @@
 [
-    
+    {
+        "id": "4",
+        "Nombre": "Personal Website v2",
+        "FechaInicio": "Septiembre 2025",
+        "FechaFin": "Actualidad",
+        "Descrpcion": "Este proyecto es una aplicación web de página única (SPA) desarrollada con React y Vite, diseñada para funcionar como un portafolio personal. El sitio presenta información sobre mi experiencia profesional, educación, cursos realizados, habilidades técnicas y formas de contacto.",
+        "Links": [
+            {
+                "Nombre": "Git Hub",
+                "Link": "https://github.com/AugustoComeglio/PersonalWebsiteV2"
+            },
+            {
+                "Nombre": "Web",
+                "Link": "https://augustocomegliowebsite.netlify.app/home"
+            }
+        ],
+        "Herramientas": [
+            {
+                "Nombre": "Python - PyTorch - FastAPI - Streamlit - Uvicorn",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "Nombre": "Personal Website",
+        "FechaInicio": "Enero 2021",
+        "FechaFin": "Septiembre 2025",
+        "Descrpcion": "EEste proyecto es mi sitio web personal, diseñado para mostrar mi información profesional y proyectos. El sitio web sirve como un currículum interactivo donde los visitantes pueden aprender sobre mi educación, experiencia laboral, habilidades y proyectos en los que he trabajado.",
+        "Links": [
+            {
+                "Nombre": "Git Hub",
+                "Link": "https://github.com/AugustoComeglio/PersonalWebsite"
+            },
+            {
+                "Nombre": "Web",
+                "Link": "https://augustocomeglio.netlify.app/"
+            }
+        ],
+        "Herramientas": [
+            {
+                "Nombre": "HTML5 - GitHub - Desarrollo web - CSS3 - Bootstrap - JavaScript - jQuery",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "Nombre": "Taductor",
+        "FechaInicio": "Junio 2024",
+        "FechaFin": "Agosto 2024",
+        "Descrpcion": "Este proyecto es un traductor automático de inglés a español basado en un modelo de red neuronal Seq2Seq con una arquitectura de Transformer. El modelo es capaz de recibir una oración en inglés y devolver su traducción al español.",
+        "Links": [
+            {
+                "Nombre": "Git Hub",
+                "Link": "https://github.com/AugustoComeglio/Traductor"
+            }
+        ],
+        "Herramientas": [
+            {
+                "Nombre": "Python - PyTorch - FastAPI - Streamlit - Uvicorn",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "Nombre": "CtrlFleet",
+        "FechaInicio": "Enero 2023",
+        "FechaFin": "Diciembre 2023",
+        "Descrpcion": "CtrlFleet es un sistema de gestión de flotas robusto y fácil de usar, compuesto por un frontend Angular que ofrece una interfaz de usuario moderna e interactiva, y un backend en Ruby on Rails que expone una API RESTful para manejar la lógica de negocio y la persistencia de datos.",
+        "Links": [
+            {
+                "Nombre": "Git Hub - BackEnd",
+                "Link": "https://github.com/AugustoComeglio/CtrlFleet-BackEnd"
+            },
+            {
+                "Nombre": "Git Hub - FrondEnd",
+                "Link": "https://github.com/AugustoComeglio/CtrlFleet-FrontEnd"
+            }
+        ],
+        "Herramientas": [
+            {
+                "Nombre": "Angular - TypeScript - SCSS - Chart.js - SweetAlert2 - Font Awesome - Ruby - Ruby on Rails - PostgreSQL - Doorkeeper - CanCanCan - Devise - RSpec - Docker",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "Nombre": "Mesa de ayuda",
+        "FechaInicio": "Enero 2020",
+        "FechaFin": "Diciembre 2020",
+        "Descrpcion": "Este proyecto es un sistema de escritorio para la gestión de una Mesa de Ayuda, desarrollado como parte de un proyecto universitario. La aplicación permite administrar y configurar los flujos de trabajo para la resolución de incidencias, optimizando el soporte y la asignación de tareas dentro de una organización. El sistema está diseñado para ser modular y escalable, permitiendo una gestión detallada de los diferentes componentes que intervienen en un proceso de soporte, como la definición de tipos de casos, la asignación a sectores específicos y la configuración de las tareas e instancias que componen cada flujo.",
+        "Links": [
+            {
+                "Nombre": "Git Hub",
+                "Link": "https://github.com/AugustoComeglio/Mesa_ayuda"
+            }
+        ],
+        "Herramientas": [
+            {
+                "Nombre": "Java - Java Swing - MySQL - Apache An - Git",
+                "src": ""
+            }
+        ]
+    }
 ]
