@@ -127,7 +127,7 @@
         "Herramientas": [
             {
                 "Nombre": "Microsoft Excel",
-                "Src": "../Images/Herramientas/ms-excel-svgrepo-com.svg"
+                "Src": "/Images/Herramientas/icons8-microsoft-excel-2025-48.png"
             },
             {
                 "Nombre": "Notion",
@@ -139,7 +139,7 @@
             },
             {
                 "Nombre": "Microsoft Sharepoint",
-                "Src": "../Images/Herramientas/ms-sharepoint-svgrepo-com.svg"
+                "Src": "/Images/Herramientas/ms-sharepoint-svgrepo-com.png"
             },
             {
                 "Nombre": "Microsoft Teams",
