@@ -13,9 +13,8 @@ const CardContacto = ({ Nombre, Src, Info, Link }) => {
           </div>
         <dl className={styles.datos}>
           <div className={styles.descripcion}>
-          <dt>Info Contacto:</dt>
-          <dd>{Link ? (<a className={styles.link} href={Link} target="_blank">{Nombre}</a>) : (Info)}</dd> 
-        </div>
+            <dd>{Link ? (<a className={styles.link} href={Link} target="_blank">{Nombre}</a>) : (Info)}</dd> 
+          </div>
         </dl>
       </div>
     </article>

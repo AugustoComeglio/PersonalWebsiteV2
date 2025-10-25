@@ -14,11 +14,11 @@ const CardExperiencia = ({
 }) => {
   return (
     <article className={styles.card}>
-      <hearder className={styles.header}>
+      <header className={styles.header}>
         <div className={styles.title}>
           <b>{Puesto}</b>
         </div>
-      </hearder>
+      </header>
 
       <div className={styles.bodyCard}>
         <div>
@@ -48,7 +48,6 @@ const CardExperiencia = ({
             <dt>Web:</dt>
             <dd>
               <a className={styles.link} href={Web} target="_blank">
-                {" "}
                 {Empresa}
               </a>
             </dd>

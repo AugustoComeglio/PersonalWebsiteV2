@@ -11,6 +11,7 @@
 
   --Status-Done: #0F9D58;
   --Status-InProgress: #4285F4;
+  --Status-InProgress: #F4B400;
 }
 
 body.light-mode {
@@ -27,8 +28,3 @@ body.dark-mode {
   --primary-color: var(--primary-color-dark);
   --secondary-color: var(--secondary-color-dark);
 }
-
-/* 
-#DB4437 
-#EA4335
-*/

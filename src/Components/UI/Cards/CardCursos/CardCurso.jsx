@@ -23,8 +23,7 @@ const CardCurso = ({
                 : ""
             }`}
           >
-            <div className={styles.statusicon}></div>
-            <div className={styles.statustexto}>{Status}</div>
+            <div className={styles.statusicon} title={Status}></div>
           </div>
         </header>
 

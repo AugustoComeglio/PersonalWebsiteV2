@@ -19,7 +19,7 @@
         "Herramientas": [
             {
                 "Nombre": "Java",
-                "Src": "../Images/Herramientas/java-svgrepo-com.svg"
+                "Src": "/Images/Herramientas/java-svgrepo-com.svg"
             },
             {
                 "Nombre": "Python",
@@ -27,11 +27,11 @@
             },
             {
                 "Nombre": "C#",
-                "Src": "../Images/Herramientas/csharp.svg"
+                "Src": "/Images/Herramientas/csharp.svg"
             },
             {
                 "Nombre": "Node.js",
-                "Src": "../Images/Herramientas/node-js-svgrepo-com.svg"
+                "Src": "/Images/Herramientas/node-js-svgrepo-com.svg"
             },
             {
                 "Nombre": "Spring",
@@ -113,7 +113,7 @@
         "Herramientas": [
             {
                 "Nombre": "MySQL",
-                "Src": "Images/Herramientas/mysql-logo-svgrepo-com.svg"
+                "Src": "/Images/Herramientas/mysql-logo-svgrepo-com.svg"
             },
             {
                 "Nombre": "Power BI",

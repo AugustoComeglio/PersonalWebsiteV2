@@ -12,7 +12,7 @@ const CardEducacion = ({
   return (
     <article className={styles.card}>
       <header className={styles.header}>
-        <div className={styles.title}>{Institucion}</div>
+        <div className={styles.title}>{Carrera}</div>
         <div
           className={`${styles.status} ${
             Status === "In Progress"
@@ -22,8 +22,7 @@ const CardEducacion = ({
               : ""
           }`}
         >
-          <div className={styles.statusicon}></div>
-          <div className={styles.statustexto}>{Status}</div>
+          <div className={styles.statusicon} title={Status}></div>
         </div>
       </header>
 
@@ -41,8 +40,8 @@ const CardEducacion = ({
 
         <dl className={styles.datos}>
           <div className={styles.descripcion}>
-            <dt>Carrera:</dt>
-            <dd>{Carrera}</dd>
+            <dt>Institución:</dt>
+            <dd>{Institucion}</dd>
           </div>
           <div className={styles.descripcion}>
             <dt>Fecha Incio:</dt>
