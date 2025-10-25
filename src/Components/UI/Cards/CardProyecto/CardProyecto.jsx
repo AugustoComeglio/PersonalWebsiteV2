@@ -17,7 +17,7 @@ const CardProyecto = ({Nombre, Src, FechaInicio, FechaFin, Descrpcion, Links, He
                     <p>{FechaInicio} - {FechaFin}</p>
                 </div>
                 <div className={styles.Links}>
-                    {Links.map((link) => (<a className={styles.link} href={link.Link}>{link.Nombre}</a>))}
+                    {Links.map((link) => (<a className={styles.link} href={link.Link} target="_blank">{link.Nombre}</a>))}
                 </div>
                 <div className={styles.herramientas}>
                     {Herramientas.map((herramienta) => (

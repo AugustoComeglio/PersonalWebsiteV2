@@ -4,7 +4,7 @@
         "Nombre": "Personal Website v2",
         "FechaInicio": "Septiembre 2025",
         "FechaFin": "Actualidad",
-        "Src":"../Images/img-no-dispo.jpg",
+        "Src":"/Images/Proyectos/Web2.png",
         "Descrpcion": "Este proyecto es una aplicación web de página única (SPA) desarrollada con React y Vite, diseñada para funcionar como un portafolio personal. El sitio presenta información sobre mi experiencia profesional, educación, cursos realizados, habilidades técnicas y formas de contacto.",
         "Links": [
             {
@@ -32,7 +32,7 @@
         "Nombre": "Personal Website",
         "FechaInicio": "Enero 2021",
         "FechaFin": "Septiembre 2025",
-        "Src":"../Images/img-no-dispo.jpg",
+        "Src":"/Images/Proyectos/Web1.png",
         "Descrpcion": "Este proyecto es mi sitio web personal, diseñado para mostrar mi información profesional y proyectos. El sitio web sirve como un currículum interactivo donde los visitantes pueden aprender sobre mi educación, experiencia laboral, habilidades y proyectos en los que he trabajado.",
         "Links": [
             {
@@ -100,7 +100,7 @@
         "Nombre": "CtrlFleet",
         "FechaInicio": "Enero 2023",
         "FechaFin": "Diciembre 2023",
-        "Src":"../Images/img-no-dispo.jpg",
+        "Src":"/Images/Proyectos/ctrlfleet.png",
         "Descrpcion": "CtrlFleet es un sistema de gestión de flotas robusto y fácil de usar, compuesto por un frontend Angular que ofrece una interfaz de usuario moderna e interactiva, y un backend en Ruby on Rails que expone una API RESTful para manejar la lógica de negocio y la persistencia de datos.",
         "Links": [
             {
