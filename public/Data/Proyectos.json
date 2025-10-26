@@ -1,5 +1,46 @@
 [
     {
+        "id": "5",
+        "Nombre": "Convert Texto to Audio",
+        "FechaInicio": "Septiembre 2025",
+        "FechaFin": "Actualidad",
+        "Src":"/Images/Proyectos/convert.png",
+        "Descrpcion": "",
+        "Links": [
+            {
+                "Nombre": "Git Hub - BackEnd",
+                "Link": "https://github.com/AugustoComeglio/ConversorTextToAudio-BackEnd"
+            },
+            {
+                "Nombre": "Git Hub - FrontEnd",
+                "Link": "https://github.com/AugustoComeglio/ConversorTextToAudio-FrontEnd"
+            }
+            
+        ],
+        "Herramientas": [
+            {
+                "Nombre": "React",
+                "Src": "/Images/Herramientas/react_light.svg"
+            },
+            {
+                "Nombre": "Vite",
+                "Src": "/Images/Herramientas/vitejs.svg"
+            },
+            {
+                "Nombre": "Python",
+                "Src": "../Images/Herramientas/python.svg"
+            },
+            {
+                "Nombre": "FastAPI",
+                "Src": "/Images/Herramientas/No/fastapi.svg"
+            },
+            {
+                "Nombre": "Uvicorn",
+                "Src": "/Images/Herramientas/No/uvicorn.png"
+            }
+        ]
+    },
+    {
         "id": "4",
         "Nombre": "Personal Website v2",
         "FechaInicio": "Septiembre 2025",
@@ -8,12 +49,12 @@
         "Descrpcion": "Este proyecto es una aplicación web de página única (SPA) desarrollada con React y Vite, diseñada para funcionar como un portafolio personal. El sitio presenta información sobre mi experiencia profesional, educación, cursos realizados, habilidades técnicas y formas de contacto.",
         "Links": [
             {
-                "Nombre": "Git Hub",
-                "Link": "https://github.com/AugustoComeglio/PersonalWebsiteV2"
+                "Nombre": "Git Hub - BackEnd",
+                "Link": "https://github.com/AugustoComeglio/ConversorTextToAudio-BackEnd"
             },
             {
-                "Nombre": "Web",
-                "Link": "https://augustocomegliowebsite.netlify.app/home"
+                "Nombre": "Git Hub - FrontEnd",
+                "Link": "https://github.com/AugustoComeglio/ConversorTextToAudio-FrontEnd"
             }
         ],
         "Herramientas": [
@@ -25,6 +66,7 @@
                 "Nombre": "Vite",
                 "Src": "/Images/Herramientas/vitejs.svg"
             }
+
         ]
     },
     {
@@ -108,7 +150,7 @@
                 "Link": "https://github.com/AugustoComeglio/CtrlFleet-BackEnd"
             },
             {
-                "Nombre": "Git Hub - FrondEnd",
+                "Nombre": "Git Hub - FrontEnd",
                 "Link": "https://github.com/AugustoComeglio/CtrlFleet-FrontEnd"
             }
         ],
