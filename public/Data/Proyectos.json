@@ -5,7 +5,7 @@
         "FechaInicio": "Octubre 2025",
         "FechaFin": "Actualidad",
         "Src":"/Images/Proyectos/convert.png",
-        "Descrpcion": "Conversor - Text to Audio es una aplicación web full-stack diseñada para convertir texto en voz de alta calidad. La aplicación consta de dos componentes principales:<br>Backend (API): Un servicio de API de alto rendimiento construido en Python con FastAPI. Se encarga de la lógica de negocio, utilizando gTTS (Google Text-to-Speech) para generar los archivos de audio.<br>Frontend (UI): Una interfaz de usuario moderna y reactiva (SPA) construida con React y Vite. Permite a los usuarios interactuar con la API de forma intuitiva, proveyendo texto y seleccionando opciones dinámicas.",
+        "Descrpcion": "Conversor - Text to Audio es una aplicación web full-stack diseñada para convertir texto en voz de alta calidad. La aplicación consta de dos componentes principales: Backend (API): Un servicio de API de alto rendimiento construido en Python con FastAPI. Se encarga de la lógica de negocio, utilizando gTTS (Google Text-to-Speech) para generar los archivos de audio. Frontend (UI): Una interfaz de usuario moderna y reactiva (SPA) construida con React y Vite. Permite a los usuarios interactuar con la API de forma intuitiva, proveyendo texto y seleccionando opciones dinámicas.",
         "Links": [
             {
                 "Nombre": "Git Hub - BackEnd",
