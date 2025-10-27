@@ -106,7 +106,7 @@
         "Nombre": "Taductor",
         "FechaInicio": "Junio 2024",
         "FechaFin": "Agosto 2024",
-        "Src":"../Images/img-no-dispo.jpg",
+        "Src":"/Images/Proyectos/Traductor.png",
         "Descrpcion": "Este proyecto es un traductor automático de inglés a español basado en un modelo de red neuronal Seq2Seq con una arquitectura de Transformer. El modelo es capaz de recibir una oración en inglés y devolver su traducción al español.",
         "Links": [
             {
@@ -182,7 +182,7 @@
         "Nombre": "Mesa de ayuda",
         "FechaInicio": "Enero 2020",
         "FechaFin": "Diciembre 2020",
-        "Src":"../Images/img-no-dispo.jpg",
+        "Src":"../Images/Proyectos/utn.png",
         "Descrpcion": "Este proyecto es un sistema de escritorio para la gestión de una Mesa de Ayuda, desarrollado como parte de un proyecto universitario. La aplicación permite administrar y configurar los flujos de trabajo para la resolución de incidencias, optimizando el soporte y la asignación de tareas dentro de una organización. El sistema está diseñado para ser modular y escalable, permitiendo una gestión detallada de los diferentes componentes que intervienen en un proceso de soporte, como la definición de tipos de casos, la asignación a sectores específicos y la configuración de las tareas e instancias que componen cada flujo.",
         "Links": [
             {
