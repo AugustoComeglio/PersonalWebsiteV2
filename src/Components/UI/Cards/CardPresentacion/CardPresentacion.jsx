@@ -27,7 +27,7 @@ const CardPresentacion = () => {
                     <h3>Objetivos Profesionales</h3>
                     <p>Mi objetivo es continuar desarrollándome en el campo de la ingeniería en sistemas de información, especializándome en la automatización de procesos y la innovación tecnológica. Aspiro a contribuir significativamente al éxito de proyectos y empresas tecnológicas, utilizando mis habilidades para crear soluciones eficientes y efectivas.</p>
                     <h3>Curriculum</h3>
-                    <a href="/CV/CV - Augusto Comeglio - 25092025.pdf" target="_blank">Ver CV (Actualizado - 25-09-2025).</a>
+                    <div className={styles.Links}><a className={styles.link} href="/CV/CV - Augusto Comeglio - 25092025.pdf" target="_blank">Ver CV</a></div>
                 </section>
             </div>
         </div>
