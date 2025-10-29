@@ -38,7 +38,30 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin: 8px;
+  cursor: pointer;
+}
+.statusicon::after {
+  content: attr(data-text);
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.statusicon:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
 }
 .inprogress .statusicon {
   background-color: var(--Status-InProgress);

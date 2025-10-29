@@ -50,10 +50,9 @@ const Herramientas = () => {
               >
                 <div className={styles.grid}>
                   {item.Herramientas.map((herr, i) => (
-                    <div key={i} className={styles.card}>
+                    <div key={i} className={styles.card} data-text={herr.Nombre}>
                       <img
                         src={herr.Src}
-                        title={herr.Nombre}
                         className={styles.imgHerramienta}
                         alt={`Logo de ${herr.Nombre}`}
                       />

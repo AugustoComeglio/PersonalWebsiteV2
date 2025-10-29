@@ -15,7 +15,8 @@
     width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    position: relative;
 }
 
 
@@ -57,6 +58,8 @@
 
 .accordioncontent.active { 
   padding: 20px;
+  max-height: fit-content;
+  overflow: visible;
 }
 .grid {
   display: grid;
@@ -74,10 +77,36 @@
   justify-content: center;
   align-items: center;
   transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
 }
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0px 5px 10px var(--primary-color);
+}
+.card::after {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  /* top: -28px;
+  left: 50%; */
+  transform: translateX(-50%);
+  background:var(--secondary-color);
+  color: var(--text-color);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 10;
+}
+.card:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+  /* transform: translateX(-50%) translateY(0); */
 }
 .imgHerramienta {
   width: 60px;
