@@ -15,7 +15,7 @@ const CardPresentacion = () => {
             <div className={styles.datos}>
                 <section className={styles.descripcion}>
                     <h3>Acerca de mí</h3>
-                    <p>Soy un estudiante avanzado de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional, apasionado por la tecnología y el desarrollo de software. Actualmente, me desempeño como RPA Developer en CTRL365, donde he adquirido experiencia en automatización de procesos y desarrollo de soluciones tecnológicas eficientes.</p>
+                    <p>Soy un estudiante de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional, a falta de dos materias para graduarme, apasionado por la tecnología y el desarrollo de software. Actualmente, me desempeño como RPA Developer en CTRL365, donde he adquirido experiencia en automatización de procesos y desarrollo de soluciones tecnológicas eficientes.</p>
                     <h3>Experiencia y Habilidades</h3>
                     <p>A lo largo de mi formación y experiencia profesional, he desarrollado una sólida base en varias áreas clave:</p>
                     <ul>

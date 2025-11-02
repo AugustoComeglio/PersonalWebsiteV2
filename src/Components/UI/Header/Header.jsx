@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ThemeContext } from "../../../Context/ThemeContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const Header = () => {
 
@@ -28,9 +28,6 @@ const Header = () => {
         <ul className={`${styles.ul} ${menuOpen ? styles.active : ""}`}>
           <li className={styles.li}>
             <Link to="/home" className={styles.link} onClick={handleLinkClick}>Home</Link>
-          </li>
-          <li className={styles.li}>
-            <Link to="/contacto" className={styles.link} onClick={handleLinkClick}>Contacto</Link>
           </li>
           <li className={styles.li}>
             <Link to="/experiencia" className={styles.link} onClick={handleLinkClick}>Experiencia</Link>
