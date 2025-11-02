@@ -1,12 +1,21 @@
 [
     {
+        "id": 12,
+        "Titulo": "Python Essentials 1",
+        "Institucion": "Cisco",
+        "SrcIstitucion": "../Images/Cursos/cisco_light.svg",
+        "Expedicion": "-",
+        "SrcCertificado": "/Images/Certificados/logo-imagen no disponible.jpg",
+        "Status": "In Progress"
+    }, 
+    {
         "id": 11,
         "Titulo": "Introducción a la programación con Python",
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
-        "Expedicion": "-",
-        "SrcCertificado": "Images/Certificados/logo-imagen no disponible.jpg",
-        "Status": "In Progress"
+        "Expedicion": "Noviembre 2025",
+        "SrcCertificado": "/Images/Certificados/Santander-Python.jpg",
+        "Status": "Done"
     }, 
     {
         "id": 10,
@@ -14,7 +23,7 @@
         "Institucion": "Santander",
         "SrcIstitucion": "/Images/Cursos/logo-santander.png",
         "Expedicion": "-",
-        "SrcCertificado": "Images/Certificados/logo-imagen no disponible.jpg",
+        "SrcCertificado": "/Images/Certificados/logo-imagen no disponible.jpg",
         "Status": "In Progress"
     },
     {
