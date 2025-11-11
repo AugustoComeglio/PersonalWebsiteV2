@@ -1,9 +1,27 @@
 [
     {
+        "id": 14,
+        "Titulo": "Business Case Builder & Agents Value Envisioning Tool - Proficient",
+        "Institucion": "Cisco",
+        "SrcIstitucion": "/Images/Cursos/microsoft.svg",
+        "Expedicion": "Noviembre 2025",
+        "SrcCertificado": "https://www.credly.com/badges/afea509e-1fb2-44c4-a488-c9cb94d977d8/public_url",
+        "Status": "Done"
+    }, 
+    {
+        "id": 13,
+        "Titulo": "Copilot Business Value - Proficient",
+        "Institucion": "Cisco",
+        "SrcIstitucion": "/Images/Cursos/microsoft.svg",
+        "Expedicion": "Noviembre 2025",
+        "SrcCertificado": "https://www.credly.com/badges/6bfcdf83-ffe0-493b-9f9f-f8dfff3b01c6/public_url",
+        "Status": "Done"
+    }, 
+    {
         "id": 12,
         "Titulo": "Python Essentials 1",
         "Institucion": "Cisco",
-        "SrcIstitucion": "../Images/Cursos/cisco_light.svg",
+        "SrcIstitucion": "/Images/Cursos/cisco_light.svg",
         "Expedicion": "-",
         "SrcCertificado": "/Images/Certificados/logo-imagen no disponible.jpg",
         "Status": "In Progress"
